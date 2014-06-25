@@ -1,0 +1,13 @@
+.idea/*
+*.pyc
+.project
+.pydevproject
+settings.py
+*.log*
+supervisord.conf
+static_production/*
+*.DS_Store*
+local_stuff/*
+venv/*
+env/*
+.noseids
