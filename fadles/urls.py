@@ -6,12 +6,13 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^$', 'fadles.views.home', name='home'),
-    # url(r'^fadles/', include('fadles.foo.urls')),
-
-    # Uncomment the admin/doc line below to enable admin documentation:
-    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
-
-    # Uncomment the next line to enable the admin:
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^$', 'fadles.views.home_view', name='home'),
+    url(r'^catalog/$', 'fadles.views.catalog_view', name='catalog'),
+    url(r'^product/(?P<product_id>\d+)/$', 'fadles.views.product_view', name='product'),
+    url(r'^houses/$', 'fadles.views.catalog_houses_view', name='houses'),
+    url(r'^house/(?P<house_id>\d+)/$', 'fadles.views.house_view', name='house'),
 )
+
+urlpatterns += patterns('',
+    url(r'^admin/', include(admin.site.urls)),
+    (r'^tinymce/', include('tinymce.urls')),)
