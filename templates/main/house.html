@@ -1,0 +1,22 @@
+{% extends 'main/incl/layout.html' %}
+{% load thumbnail %}
+
+{% block content %}
+
+<ul class="b-catalog">
+    <li class="b-catalog-item">
+        {% thumbnail house.preview "200x150" crop="center" as im %}
+            <img src='{{ im.url }}' />
+        {% endthumbnail %}<br>
+        {{ house.name }}<br>
+        {{ house.description|safe }}
+
+        <h2>Картиночки дома:</h2>
+        {% for image_object in house.images.all %}
+            {% thumbnail image_object.image "300x300" as im %}
+            <img src='{{ im.url }}' />
+            {% endthumbnail %}<br>
+        {% endfor %}
+    </li>
+</ul>
+{% endblock %}

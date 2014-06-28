@@ -1,0 +1,19 @@
+{% extends 'main/incl/layout.html' %}
+{% load thumbnail %}
+
+{% block content %}
+
+<ul class="b-catalog">
+    {% for house in houses %}
+        <li class="b-catalog-item">
+            {% thumbnail house.preview "200x150" crop="center" as im %}
+                <img src='{{ im.url }}' />
+            {% endthumbnail %}<br>
+            {{ house.name }}<br>
+            {{ house.description|safe }}
+
+            <a href="{% url 'house' house.id %}">Подробнее</a>
+        </li>
+    {% endfor %}
+</ul>
+{% endblock %}

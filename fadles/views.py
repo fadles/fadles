@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from fadles.models import Product
+from fadles.models import Product, House
 
 
 def home_view(request):
@@ -11,10 +11,13 @@ def catalog_view(request):
     return render(request, "main/catalog.html", locals())
 
 def product_view(request, product_id):
+    product = Product.objects.get(pk=product_id)
     return render(request, "main/product.html", locals())
 
 def catalog_houses_view(request):
+    houses = House.objects.all()
     return render(request, "main/houses.html", locals())
 
 def house_view(request, house_id):
+    house = House.objects.get(pk=house_id)
     return render(request, "main/house.html", locals())
