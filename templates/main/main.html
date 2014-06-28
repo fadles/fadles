@@ -1,11 +1,23 @@
+{% extends 'main/base.html' %}
+
+{% block content %}
 <html>
 {% load thumbnail %}
 {% for product in products_list %}
     <p>
-        {{ product.name }}
-        {{ product.description }}
-        {% thumbnail product.image "100x100" crop="center" as im %}
-        <img src='../media/{{ im.name }}' width="{{ im.width }}" height="{{ im.height }}"/>
-        {% endthumbnail %}
+        <br>
+        Превью:
+        {% thumbnail product.preview "100x100" crop="center" as im %}
+            <img src='../media/{{ im.name }}' width="{{ im.width }}" height="{{ im.height }}"/>
+        {% endthumbnail %}<br>
+        {{ product.name }}<br>
+        {{ product.description }}<br>
+        -----------<br><br>
+        от {{ product.start_price }} р. за {{ product.unit }}<br>
+
+        Должен ли быть в популярных товарах: {{ product.is_popular }}<br>
+
+        <a href="{% url 'product' product.id %}">Подробнее</a>
     </p>
 {% endfor %}
+{% endblock %}
