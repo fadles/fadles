@@ -12,3 +12,5 @@ venv/*
 env/*
 .noseids
 media/*
+node_modules
+.sass-cache

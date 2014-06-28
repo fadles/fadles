@@ -1,0 +1,14 @@
+<html>
+	<head>
+	
+		{% include 'main/incl/_static.html' %}
+	</head>
+<body>
+	{% include 'main/incl/_header.html' %}
+
+	{% block content %}
+		{content}
+	{% endblock %}
+
+	{% include 'main/incl/_footer.html' %}
+</body>

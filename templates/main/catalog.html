@@ -1,15 +1,14 @@
-{% extends 'main/base.html' %}
+{% extends 'main/incl/layout.html' %}
+{% load thumbnail %}
 
 {% block content %}
-<html>
-{% load thumbnail %}
-{% for product in products_list %}
-    <p>
-        {{ product.name }}
-        {{ product.description }}
-        {% thumbnail product.image "100x100" crop="center" as im %}
-        <img src='../media/{{ im.name }}' width="{{ im.width }}" height="{{ im.height }}"/>
-        {% endthumbnail %}
-    </p>
-{% endfor %}
+	{% for product in products_list %}
+	    <p>
+	        {{ product.name }}
+	        {{ product.description }}
+	        {% thumbnail product.image "100x100" crop="center" as im %}
+	        <img src='../media/{{ im.name }}' width="{{ im.width }}" height="{{ im.height }}"/>
+	        {% endthumbnail %}
+	    </p>
+	{% endfor %}
 {% endblock %}
