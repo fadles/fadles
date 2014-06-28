@@ -1,0 +1,17 @@
+{% extends 'main/incl/layout.html' %}
+{% load thumbnail %}
+
+{% block content %}
+    <p>
+        {% thumbnail product.preview "200x150" crop="center" as im %}
+            <img src='{{ im.url }}' />
+        {% endthumbnail %}<br>
+        {{ product.name }}<br>
+        {{ product.description }}
+        от {{ product.start_price }} р. за {{ product.unit }}<br>
+
+        Должен ли быть в популярных товарах: {{ product.is_popular }}<br>
+
+    </p>
+
+{% endblock %}
