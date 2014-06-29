@@ -1,2 +1,33 @@
 {% load staticfiles %}
-footer
+<div class="b-footer">
+	<div class="b-wrapper">
+		<div class="b-footer__copy">©2014 «ФАДЛЕС»</div>
+		<div class="b-footer__line"></div>
+		<div class="b-footer__block b-footer__menu">
+			<b>САЙТ</b>
+			<ul>
+				<li><a href="{% url 'catalog' %}">Каталог</a></li>
+				<li><a href="#">О компании</a></li>
+				<li><a href="#">Партнеры</a></li>
+				<li><a href="#">Отзывы и предложения</a></li>
+				<li><a href="#">Контакты</a></li>
+				<li><a href="{% url 'houses' %}">Готовые дома</a></li>
+			</ul>
+		</div>
+		<div class="b-footer__block b-footer__contacts">
+			<b>СВЯЗЬ С НАМИ</b>
+			<ul>
+				<li>+7 (495) 240-51-20</li>
+				<li>+7 (495) 727-23-01</li>
+				<li><a href="mailto:info@fadles.ru">info@fadles.ru</a></li>
+			</ul>
+		</div>
+		<div class="b-footer__block b-footer__adress">
+			<b>АДРЕС</b>
+			<ul>
+				<li>142784, г . Москва, </li>
+				<li>Киевское ш. (1 км от МКАД), БЦ Румянцево, корп. В, 14 подъезд, 9 этаж, офис 914.</li>
+			</ul>
+		</div>
+	</div>
+</div>

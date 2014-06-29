@@ -1,0 +1,32 @@
+.b-product{
+	padding: 30px 0 40px;
+}
+.b-product__name{
+	margin: 0 0 30px;
+	font-size: 35px;
+	line-height: 35px;
+}
+.b-product__gallery{
+	float:left;
+	width: 300px;
+	margin-right: 35px;
+}
+.b-product__description{
+	float: left;
+	width: 530px;
+	p{
+		margin: 0 0 30px;
+		color:#696969;
+	}
+}
+.b-product__tables{
+	margin-bottom: 40px;
+}
+.b-product__additional{
+	width: 720px;
+	float: left;
+}
+.b-product__certificates{
+	float: right;
+	width: 140px;
+}

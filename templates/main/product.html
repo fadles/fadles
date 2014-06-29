@@ -2,35 +2,44 @@
 {% load thumbnail %}
 
 {% block content %}
-    <p>
-        <h2>Продукт:</h2>
-        {% thumbnail product.preview "200x150" crop="center" as im %}
-            <img src='{{ im.url }}' />
-        {% endthumbnail %}<br>
-        Имя: {{ product.name }}<br>
-        Описание: {{ product.description }}
-        Старт цены: от {{ product.start_price }} р. за {{ product.unit }}<br>
-        Должен ли быть в популярных товарах: {{ product.is_popular }}<br><br>
-        Дополнительный контент (tinymce): {{ product.additional_info|safe }}
+    <div class="b-wrapper b-product">
+        <h2 class="b-product__name">{{ product.name }}</h2>
 
-        <h2>Картиночки:</h2>
+        <div class="b-product__gallery">
+            {% thumbnail product.preview "300x200" crop="center" as im %}
+                <img src='{{ im.url }}' />
+            {% endthumbnail %}
+        </div>
+        <div class="b-product__description">
+            <p>{{ product.description }}</p>
+            <a href="#" class="b-button__offer">ЗАКАЗАТЬ</a>
+        </div> 
+        <div class="clear"></div>
+        <div class="b-product__tables"></div>
+        <div class="b-product__additional">
+            {{ product.additional_info|safe }}
+        </div>
+        <div class="b-product__certificates">
+            <h3>Сертификаты</h3>
+            {% for certificate in product.certificates.all %}
+                
+                {% thumbnail certificate.image "100" padding=True as im %}
+                    <img src="{{ im.url }}">
+                {% endthumbnail %}
+                {{ certificate.name }}
+
+            {% endfor %}
+        </div>
+        <div class="clear"></div>
+        
+
+        <!--<h2>Картиночки:</h2>
         <br>
         {% for image_object in product.images.all %}
             {% thumbnail image_object.image "300x300" crop="center" as im %}
             <img src='{{ im.url }}' />
             {% endthumbnail %}<br>
-        {% endfor %}
-        <br>
-        <br>
-
-        <h2>Сертификаты:</h2>
-        {% for certificate in product.certificates.all %}
-            {{ certificate.name }}
-            {% thumbnail certificate.image "300x300" padding=True as im %}
-            <img src="{{ im.url }}"><br>
-            {% endthumbnail %}<br>
-
-        {% endfor %}
-    </p>
-
+        {% endfor %}-->
+        
+    </div>
 {% endblock %}
