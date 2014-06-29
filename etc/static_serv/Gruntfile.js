@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     compass: {
 		  dist: {
   			options: {
-  				basePath:'../../fadles/static/main/',
+  				basePath:'../../static/main/',
 				sassDir:'scss',
 				cssDir:'css',
 				outputStyle:'compressed'
@@ -16,7 +16,7 @@ module.exports = function(grunt) {
  
     watch: {
       compass: {
-        files: '../../fadles/static/main/scss/*.scss', // следить за изменениями любых файлов с разширениями .scss
+        files: '../../static/main/scss/*.scss', // следить за изменениями любых файлов с разширениями .scss
         tasks: ['compass'] // и запускать такую задачу при их изменении
       }
     }
