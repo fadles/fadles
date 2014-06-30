@@ -6,9 +6,34 @@
         <h2 class="b-product__name">{{ product.name }}</h2>
 
         <div class="b-product__gallery">
-            {% thumbnail product.preview "300x200" crop="center" as im %}
-                <img src='{{ im.url }}' />
-            {% endthumbnail %}
+            <div class="b-product-gallery__main">
+                <a href="{{ product.images.first.image.url }}" data-lightbox="products" data-title="{{ 1 }}">
+                    {% thumbnail product.images.first.image "298x200" crop="center" as im %}
+                        <img src='{{ im.url }}' />
+                    {% endthumbnail %}
+                </a>
+            </div>
+            <ul class="b-product-gallery__others">
+                {% for image_object in product.images.all %}
+                    {% if not forloop.first and forloop.counter0 <= 4 %}
+                        <li>
+                            <a href="{{ image_object.image.url }}" data-lightbox="products" data-title="{{ forloop.counter }}">
+                                {% thumbnail image_object.image "58x58" crop="center" as im %}
+                                    <img src='{{ im.url }}' />
+                                {% endthumbnail %}   
+                            </a>
+                        </li>
+                    {% elif not forloop.first %}
+                        <a style="display:none;" href="{{ image_object.image.url }}" data-lightbox="products" data-title="{{ forloop.counter }}"></a>
+                    {% endif %}
+                {% endfor %}
+                {% if product.images.all|length > 5 %}
+                    <li class="b-product-gallery__more">
+                        <span>{{product.images.all|length}}<br/>ФОТО</span>
+                    </li>
+                {% endif %}
+                <div class="clear"></div>
+            </ul>
         </div>
         <div class="b-product__description">
             <p>{{ product.description }}</p>
@@ -19,17 +44,19 @@
         <div class="b-product__additional">
             {{ product.additional_info|safe }}
         </div>
-        <div class="b-product__certificates">
-            <h3>Сертификаты</h3>
-            {% for certificate in product.certificates.all %}
-                
-                {% thumbnail certificate.image "100" padding=True as im %}
-                    <img src="{{ im.url }}">
-                {% endthumbnail %}
-                {{ certificate.name }}
+        {% if product.certificates.all %}
+            <div class="b-product__certificates">
+                <h3>Сертификаты</h3>
+                {% for certificate in product.certificates.all %}
+                    
+                    {% thumbnail certificate.image "100" padding=True as im %}
+                        <img src="{{ im.url }}">
+                    {% endthumbnail %}
+                    {{ certificate.name }}
 
-            {% endfor %}
-        </div>
+                {% endfor %}
+            </div>
+        {% endif %}
         <div class="clear"></div>
         
 

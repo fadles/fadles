@@ -8,9 +8,60 @@
 }
 .b-product__gallery{
 	float:left;
-	width: 300px;
+	width: 298px;
 	margin-right: 35px;
 }
+.b-product-gallery__main{
+	a{
+		display: block;
+		height:200px;
+	}
+	img{
+		width:100%;
+		display: block;
+	}
+}
+.b-product-gallery__others{
+	height:58px;
+	margin-top: 2px;
+
+	li{
+		display: block;
+		float: left;
+		width: 58px;
+		height: 58px;
+		margin-left: 2px;
+		&:first-child{
+			margin-left: 0;
+		}
+		a{
+			display: block;
+			text-decoration: none;
+			height: 100%;
+			img{
+				width: 58px;
+				height: 58px;
+				display: block;
+			}
+		}
+	}
+}
+.b-product-gallery__more{
+
+	background: #f0784f;
+	text-align: center;
+	font-weight: 700;
+	cursor: pointer;
+
+	span{
+		font-size: 12px;
+		line-height: 14px;
+		color:#fff;	
+		@include inline-block;
+		padding-top: 15px;
+	}
+}
+
 .b-product__description{
 	float: left;
 	width: 530px;
