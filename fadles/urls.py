@@ -21,3 +21,10 @@ urlpatterns += patterns('',
     (r'^ckeditor/', include('fadles.ckeditor_urls')),)
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+# Flatpages
+urlpatterns += patterns('',
+    url(r'^contacts/', include('django.contrib.flatpages.urls'), name='contacts'),
+    url(r'^partners/', include('django.contrib.flatpages.urls'), name='partners'),
+    url(r'^about/', include('django.contrib.flatpages.urls'), name='about'),
+)
