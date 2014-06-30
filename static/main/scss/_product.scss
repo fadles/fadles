@@ -71,7 +71,34 @@
 	}
 }
 .b-product__tables{
-	margin-bottom: 40px;
+	margin: 40px 0;
+}
+.b-product-tables__tabs{
+	li{
+		display: inline-block;
+		padding: 5px 10px;
+		border:1px solid black;
+		border-bottom: none;
+		background: #ccc;
+		cursor:pointer;
+		&.active{
+			background: #eee;
+		}
+	}
+}
+.b-product-tables__content{
+	table{
+		width:100%;
+		border:1px solid black;
+		th, td{
+			text-align: left;
+			border:1px solid black;
+			padding:5px;
+		}
+		th{
+			background: #bbb;
+		}
+	}
 }
 .b-product__additional{
 	width: 720px;

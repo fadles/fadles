@@ -2,13 +2,35 @@
 {% load thumbnail %}
 
 {% block content %}
-	{% for product in products_list %}
-	    <p>
-	        {{ product.name }}
-	        {{ product.description }}
-	        {% thumbnail product.image "100x100" crop="center" as im %}
-	        <img src='../media/{{ im.name }}' width="{{ im.width }}" height="{{ im.height }}"/>
-	        {% endthumbnail %}
-	    </p>
-	{% endfor %}
+	<div class="b-wrapper">
+
+        <div class="b-popular">
+            <h2>Популярные товары</h2>
+            <ul>
+
+            </ul>
+        </div>
+        <div class="b-catalog">
+            <h2>Каталог</h2>
+            <ul>
+                {% for product in products_list %}
+                    <li class="b-catalog-item">
+                        <div class="b-catalog-item__preview" >
+                            <a href="{% url 'product' product.id %}">
+                                {% thumbnail product.preview "90x90" crop="center" as im %}
+                                    <img src='{{ im.url }}' />
+                                {% endthumbnail %}
+                            </a>
+                        </div>
+                        <div class="b-catalog-item__info">
+                            <a href="{% url 'product' product.id %}" class="b-catalog-item__name">{{ product.name }}</a>
+                            <span class="b-catalog-item__price">от {{ product.start_price }} р. за {{ product.unit }}</span>
+                        </div>
+                        <div class="clear"></div>
+                    </li>
+                {% endfor %}
+                <div class="clear"></div>
+            </ul>   
+        </div> 
+    </div>
 {% endblock %}
