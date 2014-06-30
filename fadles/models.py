@@ -1,6 +1,7 @@
 from django.db import models
 from sorl.thumbnail import ImageField
 from tinymce.models import HTMLField
+from ckeditor.fields import RichTextField
 
 def content_file_name(instance, filename):
     return '/'.join(['content', filename])
@@ -12,7 +13,7 @@ class Product(models.Model):
     is_popular = models.BooleanField(default=False)
     start_price = models.IntegerField(default=0)
     unit = models.CharField(max_length=16)
-    additional_info = HTMLField()
+    additional_info = RichTextField()
 
     def __str__(self):
         return self.name.encode('utf-8')
@@ -29,7 +30,7 @@ class ProductCertificate(models.Model):
 
 class House(models.Model):
     name = models.CharField(max_length=512)
-    description = HTMLField()
+    description = RichTextField()
     preview = ImageField(upload_to=content_file_name)
 
     def __str__(self):

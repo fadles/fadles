@@ -18,6 +18,6 @@ urlpatterns = patterns('',
 
 urlpatterns += patterns('',
     url(r'^admin/', include(admin.site.urls)),
-    (r'^tinymce/', include('tinymce.urls')),)
+    (r'^ckeditor/', include('ckeditor.urls')),)
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
