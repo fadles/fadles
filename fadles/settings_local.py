@@ -1,4 +1,5 @@
 # Django settings for fadles project.
+import os
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -71,12 +72,9 @@ TEMPLATE_DIRS = (
     PROJECT_PATH + '/templates/'
 )
 
-
 # Additional locations of static files
 STATICFILES_DIRS = (
-    # Put strings here, like "/home/html/static" or "C:/www/django/static".
-    # Always use forward slashes, even on Windows.
-    # Don't forget to use absolute paths, not relative paths.
+    os.path.join(PROJECT_PATH, 'static/'),
 )
 
 # List of finder classes that know how to find static files in
@@ -88,7 +86,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = ')ze51)2-0njkvdtyqoh6h41&cc3oudi41m+9%f(ini=e^(+ma2'
+SECRET_KEY = ')ze51)2-0njkvdtyqoh6h41&cc3oudi41m+9%f(ini=e^12ma2'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -103,6 +101,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+    'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
     # Uncomment the next line for simple clickjacking protection:
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
@@ -125,6 +124,8 @@ INSTALLED_APPS = (
     'fadles',
     'sorl.thumbnail',
     'south',
+    'ckeditor',
+    'django.contrib.flatpages',
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
@@ -159,3 +160,8 @@ LOGGING = {
         },
     }
 }
+
+
+CKEDITOR_UPLOAD_PATH = '/Users/denti/OtherProjects/fadles/ck_uploads'
+
+SITE_ID = 1
