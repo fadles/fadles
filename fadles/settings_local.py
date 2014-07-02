@@ -132,6 +132,22 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
 )
 
+CKEDITOR_CONFIGS = {
+    "default": {
+        "removePlugins": "stylesheetparser",
+        "forcePasteAsPlainText": True,
+        "ShiftEnterMode": 'p', 
+        "pasteFromWordRemoveFontStyles": True,
+        "removeFormatTag": "b,big,code,del,dfn,em,font,i,ins,kbd,q,samp,small,span,strike,strong,sub,sup,tt,u,var,br",
+        "ignoreEmptyParagraph": True,
+        "extraPlugins": "link",
+        'toolbar': [
+            ['Format', 'Bold', 'Italic', 'Link', 'Unlink', 'Image', 'Source', 'NumberedList', 'BulletedList'],
+        ],
+        'width' : '80%',
+        'resize_enabled' : False
+    }
+}
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
 # the site admins on every HTTP 500 error when DEBUG=False.
