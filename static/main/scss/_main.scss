@@ -12,11 +12,46 @@
 	}
 }
 .b-popular{
-	padding: 0 0 20px;
+	padding: 0 0 30px;
 	border-bottom: 1px solid #e2e2e2;
 	margin-bottom: 30px;
-}
 
+	ul{
+		margin-top: 30px;
+	}
+}
+.b-popular-item{
+	display: block;
+	float: left;
+	width: 140px;
+	margin-left: 20px;
+	&:first-child{
+		margin-left: 0;
+	}
+}
+.b-popular-item__img{
+	display: block;
+	@include box-shadow(0px 1px 1px #a5a5a5);
+	margin-bottom: 10px;
+	img{
+		width: 100%;
+	}
+}
+.b-popular-item__name{
+	color:#000;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 700;
+}
+.b-popular-item__size{
+	display: block;
+	margin: 4px 0;
+	font-size: 12px;
+}
+.b-popular-item__price{
+	color:#fa4628;
+	font-size: 12px;
+}
 .b-catalog{
 	ul{
 		padding-top: 30px;

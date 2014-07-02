@@ -1,5 +1,6 @@
 {% extends 'main/incl/layout.html' %}
 {% load thumbnail %}
+{% load staticfiles %}
 
 {% block content %}
 <div class="b-best-offers">
@@ -12,7 +13,56 @@
         <div class="b-popular">
             <h2>Популярные товары</h2>
             <ul>
+                <li class="b-popular-item">
+                    <a href="/product/3/" class="b-popular-item__img">
+                        <img src="{% static 'main/img/photo1.jpg' %}" />
+                    </a>
+                    <a href="/product/3/" class="b-popular-item__name">Пиломатериал обрезной</a>
+                    <span class="b-popular-item__size">150-25-6000 мм</span>
+                    <span class="b-popular-item__price">2 900 руб м куб</span>
+                </li>
+                <li class="b-popular-item">
+                    <a href="/product/4/" class="b-popular-item__img">
+                        <img src="{% static 'main/img/photo2.jpg' %}" />
+                    </a>
+                    <a href="/product/4/" class="b-popular-item__name">ДСП</a>
+                    <span class="b-popular-item__size">150-600 мм</span>
+                    <span class="b-popular-item__price">500 руб лист</span>
+                </li>
+                <li class="b-popular-item">
+                    <a href="/product/3/" class="b-popular-item__img">
+                        <img src="{% static 'main/img/photo2.jpg' %}" />
+                    </a>
+                    <a href="/product/3/" class="b-popular-item__name">Пиломатериал обрезной</a>
+                    <span class="b-popular-item__size">150-25-6000 мм</span>
+                    <span class="b-popular-item__price">2 900 руб м куб</span>
+                </li>
+                <li class="b-popular-item">
+                    <a href="/product/4/" class="b-popular-item__img">
+                        <img src="{% static 'main/img/photo1.jpg' %}" />
+                    </a>
+                    <a href="/product/4/" class="b-popular-item__name">ДСП</a>
+                    <span class="b-popular-item__size">150-600 мм</span>
+                    <span class="b-popular-item__price">500 руб лист</span>
+                </li>
+                <li class="b-popular-item">
+                    <a href="/product/3/" class="b-popular-item__img">
+                        <img src="{% static 'main/img/photo2.jpg' %}" />
+                    </a>
+                    <a href="/product/3/" class="b-popular-item__name">Пиломатериал обрезной</a>
+                    <span class="b-popular-item__size">150-25-6000 мм</span>
+                    <span class="b-popular-item__price">2 900 руб м куб</span>
+                </li>
+                <li class="b-popular-item">
+                    <a href="/product/4/" class="b-popular-item__img">
+                        <img src="{% static 'main/img/photo1.jpg' %}" />
+                    </a>
+                    <a href="/product/4/" class="b-popular-item__name">ДСП</a>
+                    <span class="b-popular-item__size">150-600 мм</span>
+                    <span class="b-popular-item__price">500 руб лист</span>
+                </li>
 
+                <div class="clear"></div>
             </ul>
         </div>
         <div class="b-catalog">
