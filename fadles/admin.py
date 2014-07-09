@@ -1,4 +1,4 @@
-from fadles.models import Product, ProductImage, ProductCertificate, HouseImage, House
+from fadles.models import Product, ProductImage, ProductCertificate, HouseImage, House, Sale, PopularProduct
 from django.contrib import admin
 from sorl.thumbnail.admin import AdminImageMixin
 from django.contrib.sites.models import Site
@@ -44,3 +44,5 @@ admin.site.unregister(Site)
 # admin.site.unregister(User)
 admin.site.unregister(FlatPage)
 admin.site.register(FlatPage, FlatPageAdmin)
+admin.site.register(PopularProduct)
+admin.site.register(Sale)

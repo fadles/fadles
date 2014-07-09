@@ -39,3 +39,28 @@ class House(models.Model):
 class HouseImage(models.Model):
     property = models.ForeignKey(House, related_name='images')
     image = ImageField(upload_to=content_file_name)
+
+class PopularProduct(models.Model):
+    size = models.CharField(max_length=256)
+    start_price = models.IntegerField(default=0)
+    unit = models.CharField(max_length=16)
+    preview = ImageField(upload_to=content_file_name)
+    product = models.ForeignKey(Product, related_name='populars')
+    is_active = models.BooleanField()
+
+    def __str__(self):
+        return self.product.name.encode('utf-8')
+
+    def name(self):
+        return self.product.name.encode('utf-8')
+
+class Sale(models.Model):
+    name = models.CharField(max_length=512)
+    description = models.TextField()
+    preview = ImageField(upload_to=content_file_name)
+    product = models.ForeignKey(Product, related_name='sales')
+    is_active = models.BooleanField()
+
+    def __str__(self):
+        return self.name.encode('utf-8')
+

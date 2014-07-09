@@ -1,9 +1,10 @@
 from django.shortcuts import render
-from fadles.models import Product, House
+from fadles.models import Product, House, PopularProduct
 
 
 def home_view(request):
     products_list = Product.objects.all()
+    popular_products_list = PopularProduct.objects.filter(is_active=True)
     return render(request, "main/main.html", locals())
 
 def catalog_view(request):
