@@ -24,6 +24,11 @@ $orange-color: #fa6828;
 	font-weight: 700;
 	text-decoration: none;
 }
+.b-flat{
+	padding: 30px 0 40px;
+}
 @import "layout";
 @import "main";
 @import "product";
+@import "houses";
+@import "house";
