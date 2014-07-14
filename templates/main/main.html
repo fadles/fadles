@@ -16,7 +16,7 @@
                 {% for p_product in popular_products_list %}
                     <li class="b-popular-item">
                         <a href="{% url 'product' p_product.product.id %}" class="b-popular-item__img">
-                            {% thumbnail p_product.preview "100" crop="center" as im %}
+                            {% thumbnail p_product.preview "140x95" crop="center" as im %}
                                     <img src='{{ im.url }}' />
                             {% endthumbnail %}
                         </a>
@@ -25,54 +25,6 @@
                         <span class="b-popular-item__price">{{ p_product.start_price }} руб {{ p_product.unit }}</span>
                     </li>
                 {% endfor %}
-{#                <li class="b-popular-item">#}
-{#                    <a href="/product/3/" class="b-popular-item__img">#}
-{#                        <img src="{% static 'main/img/photo1.jpg' %}" />#}
-{#                    </a>#}
-{#                    <a href="/product/3/" class="b-popular-item__name">Пиломатериал обрезной</a>#}
-{#                    <span class="b-popular-item__size">150-25-6000 мм</span>#}
-{#                    <span class="b-popular-item__price">2 900 руб м куб</span>#}
-{#                </li>#}
-{#                <li class="b-popular-item">#}
-{#                    <a href="/product/4/" class="b-popular-item__img">#}
-{#                        <img src="{% static 'main/img/photo2.jpg' %}" />#}
-{#                    </a>#}
-{#                    <a href="/product/4/" class="b-popular-item__name">ДСП</a>#}
-{#                    <span class="b-popular-item__size">150-600 мм</span>#}
-{#                    <span class="b-popular-item__price">500 руб лист</span>#}
-{#                </li>#}
-{#                <li class="b-popular-item">#}
-{#                    <a href="/product/3/" class="b-popular-item__img">#}
-{#                        <img src="{% static 'main/img/photo2.jpg' %}" />#}
-{#                    </a>#}
-{#                    <a href="/product/3/" class="b-popular-item__name">Пиломатериал обрезной</a>#}
-{#                    <span class="b-popular-item__size">150-25-6000 мм</span>#}
-{#                    <span class="b-popular-item__price">2 900 руб м куб</span>#}
-{#                </li>#}
-{#                <li class="b-popular-item">#}
-{#                    <a href="/product/4/" class="b-popular-item__img">#}
-{#                        <img src="{% static 'main/img/photo1.jpg' %}" />#}
-{#                    </a>#}
-{#                    <a href="/product/4/" class="b-popular-item__name">ДСП</a>#}
-{#                    <span class="b-popular-item__size">150-600 мм</span>#}
-{#                    <span class="b-popular-item__price">500 руб лист</span>#}
-{#                </li>#}
-{#                <li class="b-popular-item">#}
-{#                    <a href="/product/3/" class="b-popular-item__img">#}
-{#                        <img src="{% static 'main/img/photo2.jpg' %}" />#}
-{#                    </a>#}
-{#                    <a href="/product/3/" class="b-popular-item__name">Пиломатериал обрезной</a>#}
-{#                    <span class="b-popular-item__size">150-25-6000 мм</span>#}
-{#                    <span class="b-popular-item__price">2 900 руб м куб</span>#}
-{#                </li>#}
-{#                <li class="b-popular-item">#}
-{#                    <a href="/product/4/" class="b-popular-item__img">#}
-{#                        <img src="{% static 'main/img/photo1.jpg' %}" />#}
-{#                    </a>#}
-{#                    <a href="/product/4/" class="b-popular-item__name">ДСП</a>#}
-{#                    <span class="b-popular-item__size">150-600 мм</span>#}
-{#                    <span class="b-popular-item__price">500 руб лист</span>#}
-{#                </li>#}
 
                 <div class="clear"></div>
             </ul>
