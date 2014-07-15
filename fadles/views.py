@@ -9,6 +9,7 @@ def home_view(request):
 
 def catalog_view(request):
     products_list = Product.objects.all()
+    popular_products_list = PopularProduct.objects.filter(is_active=True)
     return render(request, "main/catalog.html", locals())
 
 def product_view(request, product_id):

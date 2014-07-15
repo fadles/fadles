@@ -1,4 +1,4 @@
-from fadles.models import Product, ProductImage, ProductCertificate, HouseImage, House, Sale, PopularProduct
+from fadles.models import Product, ProductImage, ProductCertificate, HouseImage, House, Sale, PopularProduct, ProductTable
 from django.contrib import admin
 from sorl.thumbnail.admin import AdminImageMixin
 from django.contrib.sites.models import Site
@@ -21,6 +21,9 @@ class FlatpageForm(FlatpageFormOld):
 class FlatPageAdmin(FlatPageAdminOld):
     form = FlatpageForm
 
+class ProductTableInline(admin.TabularInline):
+    model = ProductTable
+
 class ProductImageInline(AdminImageMixin, admin.TabularInline):
     model = ProductImage
 
@@ -28,7 +31,7 @@ class ProductCertificateInline(AdminImageMixin, admin.TabularInline):
     model = ProductCertificate
 
 class ProductAdmin(admin.ModelAdmin):
-    inlines = [ProductImageInline, ProductCertificateInline]
+    inlines = [ProductImageInline, ProductCertificateInline, ProductTableInline]
 
 
 class HouseImageInline(AdminImageMixin, admin.TabularInline):
