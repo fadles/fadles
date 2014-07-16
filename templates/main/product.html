@@ -42,7 +42,7 @@
         <div class="clear"></div>
         <div class="b-product__tables">
             <ul class="b-product-tables__tabs">
-            {% for table in product.tables.all %}
+            {% for table in product_tables %}
                 <li data-tab="tab{{ forloop.counter }}">{{ table.name }}</li>
             {% endfor %}
                 <div class="clear"></div>
