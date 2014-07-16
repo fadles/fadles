@@ -1,5 +1,6 @@
+import json
 from django.shortcuts import render
-from fadles.models import Product, House, PopularProduct
+from fadles.models import Product, House, PopularProduct, ProductTable
 
 
 def home_view(request):
@@ -14,6 +15,12 @@ def catalog_view(request):
 
 def product_view(request, product_id):
     product = Product.objects.get(pk=product_id)
+    product_tables = product.tables.all()
+    for table in product_tables:
+        table.table_json = json.loads(table.table_json)
+        table.table_json = [sorted(row.items()) for row in table.table_json ]
+        print table.table_json
+
     return render(request, "main/product.html", locals())
 
 def catalog_houses_view(request):

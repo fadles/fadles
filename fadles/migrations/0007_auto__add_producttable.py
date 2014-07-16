@@ -11,7 +11,7 @@ class Migration(SchemaMigration):
         # Adding model 'ProductTable'
         db.create_table(u'fadles_producttable', (
             (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
-            ('property', self.gf('django.db.models.fields.related.ForeignKey')(related_name='tables', to=orm['fadles.Product'])),
+            ('product', self.gf('django.db.models.fields.related.ForeignKey')(related_name='tables', to=orm['fadles.Product'])),
             ('name', self.gf('django.db.models.fields.CharField')(max_length=256)),
             ('table_json', self.gf('django.db.models.fields.TextField')()),
             ('table', self.gf('django.db.models.fields.files.FileField')(max_length=100)),

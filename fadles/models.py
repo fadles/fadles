@@ -74,7 +74,7 @@ class Sale(models.Model):
         return self.name.encode('utf-8')
 
 class ProductTable(models.Model):
-    property = models.ForeignKey(Product, related_name='tables')
+    product = models.ForeignKey(Product, related_name='tables')
     name = models.CharField(max_length=256)
     table_json = models.TextField()
     table = models.FileField(upload_to=content_file_name)
