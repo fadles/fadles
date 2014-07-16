@@ -42,153 +42,167 @@
         <div class="clear"></div>
         <div class="b-product__tables">
             <ul class="b-product-tables__tabs">
-                <li data-tab="tab1">Хвоя</li>
-                <li data-tab="tab2">Лиственница</li>
-                <li data-tab="tab3">Липа</li>
+            {% for table in product.tables.all %}
+                <li data-tab="tab{{ forloop.counter }}">{{ table.name }}</li>
+            {% endfor %}
                 <div class="clear"></div>
             </ul>
+{#            <ul class="b-product-tables__tabs">#}
+{#                <li data-tab="tab1">Хвоя</li>#}
+{#                <li data-tab="tab2">Лиственница</li>#}
+{#                <li data-tab="tab3">Липа</li>#}
+{#                <div class="clear"></div>#}
+{#            </ul>#}
             <ul class="b-product-tables__content">
-                <li data-tab="tab1">
-                    <table>
-                        <tr>
-                            <th>Название</th>
-                            <th>Пачек в м3</th>
-                            <th>“Э” розн</th>
-                            <th>“А” розн</th>
-                            <th>“Э” опт</th>
-                            <th>“А” опт</th>
-                        </tr>
-                        <tr>
-                            <td>Вагонка хвоя 1,8м</td>
-                            <td>6</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>Вагонка хвоя 2,8м</td>
-                            <td>23</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>Сосна</td>
-                            <td>21</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>Вагонка хвоя 3м</td>
-                            <td>12</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                    </table>
+            {% for table in product.tables.all %}
+                <li data-tab="tab{{ forloop.counter }}">
+                {#        table        #}
+                {{ table.table_json }}
                 </li>
-                <li data-tab="tab2">
-                    <table>
-                        <tr>
-                            <th>Название</th>
-                            <th>2м</th>
-                            <th>2м</th>
-                            <th>2м</th>
-                            <th>2м</th>
-                            <th>2м</th>
-                        </tr>
-                        <tr>
-                            <td>корова</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>корова</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>лось</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>молоко</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>Сосна</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                    </table>
-                </li>
-                <li data-tab="tab3">
-                    <table>
-                        <tr>
-                            <th>Название</th>
-                            <th>2м</th>
-                            <th>2м</th>
-                            <th>2м</th>
-                            <th>2м</th>
-                            <th>2м</th>
-                        </tr>
-                        <tr>
-                            <td>пес</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>собака</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>Сосна</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>Сосна</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                    </table>
-                </li>
+            {% endfor %}
             </ul>
+{#            <ul class="b-product-tables__content">#}
+{#                <li data-tab="tab1">#}
+{#                    <table>#}
+{#                        <tr>#}
+{#                            <th>Название</th>#}
+{#                            <th>Пачек в м3</th>#}
+{#                            <th>“Э” розн</th>#}
+{#                            <th>“А” розн</th>#}
+{#                            <th>“Э” опт</th>#}
+{#                            <th>“А” опт</th>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>Вагонка хвоя 1,8м</td>#}
+{#                            <td>6</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>Вагонка хвоя 2,8м</td>#}
+{#                            <td>23</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>Сосна</td>#}
+{#                            <td>21</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>Вагонка хвоя 3м</td>#}
+{#                            <td>12</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                        </tr>#}
+{#                    </table>#}
+{#                </li>#}
+{#                <li data-tab="tab2">#}
+{#                    <table>#}
+{#                        <tr>#}
+{#                            <th>Название</th>#}
+{#                            <th>2м</th>#}
+{#                            <th>2м</th>#}
+{#                            <th>2м</th>#}
+{#                            <th>2м</th>#}
+{#                            <th>2м</th>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>корова</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>корова</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>лось</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>молоко</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>Сосна</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                        </tr>#}
+{#                    </table>#}
+{#                </li>#}
+{#                <li data-tab="tab3">#}
+{#                    <table>#}
+{#                        <tr>#}
+{#                            <th>Название</th>#}
+{#                            <th>2м</th>#}
+{#                            <th>2м</th>#}
+{#                            <th>2м</th>#}
+{#                            <th>2м</th>#}
+{#                            <th>2м</th>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>пес</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>собака</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>Сосна</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>Сосна</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                            <td>-</td>#}
+{#                        </tr>#}
+{#                    </table>#}
+{#                </li>#}
+{#            </ul>#}
         </div>
         <div class="b-product__additional">
             {{ product.additional_info|safe }}

@@ -23,3 +23,6 @@ def catalog_houses_view(request):
 def house_view(request, house_id):
     house = House.objects.get(pk=house_id)
     return render(request, "main/house.html", locals())
+
+def review_view(request):
+    return  render(request, "main/review.html")
