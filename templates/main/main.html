@@ -20,7 +20,7 @@
                                     <img src='{{ im.url }}' />
                             {% endthumbnail %}
                         </a>
-                        <a href="/product/3/" class="b-popular-item__name">{{ p_product.name }}</a>
+                        <a href="{% url 'product' p_product.product.id %}" class="b-popular-item__name">{{ p_product.name }}</a>
                         <span class="b-popular-item__size">{{ p_product.size }}</span>
                         <span class="b-popular-item__price">{{ p_product.start_price }} руб {{ p_product.unit }}</span>
                     </li>
