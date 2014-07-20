@@ -1,0 +1,2905 @@
+[
+{
+  "pk": 1, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "permission", 
+    "name": "permission", 
+    "app_label": "auth"
+  }
+},
+{
+  "pk": 2, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "group", 
+    "name": "group", 
+    "app_label": "auth"
+  }
+},
+{
+  "pk": 3, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "user", 
+    "name": "user", 
+    "app_label": "auth"
+  }
+},
+{
+  "pk": 4, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "contenttype", 
+    "name": "content type", 
+    "app_label": "contenttypes"
+  }
+},
+{
+  "pk": 5, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "session", 
+    "name": "session", 
+    "app_label": "sessions"
+  }
+},
+{
+  "pk": 6, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "site", 
+    "name": "site", 
+    "app_label": "sites"
+  }
+},
+{
+  "pk": 7, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "logentry", 
+    "name": "log entry", 
+    "app_label": "admin"
+  }
+},
+{
+  "pk": 8, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "kvstore", 
+    "name": "kv store", 
+    "app_label": "thumbnail"
+  }
+},
+{
+  "pk": 9, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "migrationhistory", 
+    "name": "migration history", 
+    "app_label": "south"
+  }
+},
+{
+  "pk": 10, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "product", 
+    "name": "product", 
+    "app_label": "fadles"
+  }
+},
+{
+  "pk": 11, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "productimage", 
+    "name": "product image", 
+    "app_label": "fadles"
+  }
+},
+{
+  "pk": 12, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "productcertificate", 
+    "name": "product certificate", 
+    "app_label": "fadles"
+  }
+},
+{
+  "pk": 13, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "house", 
+    "name": "house", 
+    "app_label": "fadles"
+  }
+},
+{
+  "pk": 14, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "houseimage", 
+    "name": "house image", 
+    "app_label": "fadles"
+  }
+},
+{
+  "pk": 15, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "flatpage", 
+    "name": "flat page", 
+    "app_label": "flatpages"
+  }
+},
+{
+  "pk": 16, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "popularproduct", 
+    "name": "popular product", 
+    "app_label": "fadles"
+  }
+},
+{
+  "pk": 17, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "sale", 
+    "name": "sale", 
+    "app_label": "fadles"
+  }
+},
+{
+  "pk": 18, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "producttable", 
+    "name": "product table", 
+    "app_label": "fadles"
+  }
+},
+{
+  "pk": 19, 
+  "model": "contenttypes.contenttype", 
+  "fields": {
+    "model": "contactus", 
+    "name": "contact us", 
+    "app_label": "fadles"
+  }
+},
+{
+  "pk": "64gtx78i4tuzjx23m5npywzh7smwqrh3", 
+  "model": "sessions.session", 
+  "fields": {
+    "expire_date": "2014-07-12T16:29:51Z", 
+    "session_data": "NzdkOGEzZjE5ZTE0NzZkN2VhY2MxOWEyNDQ0MDkyODRmOGZhMjhmMDp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MX0="
+  }
+},
+{
+  "pk": "8amvchvhb0ox2dqsw9h6bc6sg5l96040", 
+  "model": "sessions.session", 
+  "fields": {
+    "expire_date": "2014-07-25T09:36:48Z", 
+    "session_data": "NzdkOGEzZjE5ZTE0NzZkN2VhY2MxOWEyNDQ0MDkyODRmOGZhMjhmMDp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MX0="
+  }
+},
+{
+  "pk": "lfba1heiza670hc6196rb58haojhho32", 
+  "model": "sessions.session", 
+  "fields": {
+    "expire_date": "2014-07-09T08:24:40Z", 
+    "session_data": "NzdkOGEzZjE5ZTE0NzZkN2VhY2MxOWEyNDQ0MDkyODRmOGZhMjhmMDp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MX0="
+  }
+},
+{
+  "pk": "q1ueaunpvd6z6rk1egru5l9lsj4urjqc", 
+  "model": "sessions.session", 
+  "fields": {
+    "expire_date": "2014-07-25T08:55:15Z", 
+    "session_data": "NzdkOGEzZjE5ZTE0NzZkN2VhY2MxOWEyNDQ0MDkyODRmOGZhMjhmMDp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MX0="
+  }
+},
+{
+  "pk": "tjmu1iapp43ezg82g9asywlwof98ti2q", 
+  "model": "sessions.session", 
+  "fields": {
+    "expire_date": "2014-07-08T20:53:27Z", 
+    "session_data": "NzdkOGEzZjE5ZTE0NzZkN2VhY2MxOWEyNDQ0MDkyODRmOGZhMjhmMDp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MX0="
+  }
+},
+{
+  "pk": 1, 
+  "model": "sites.site", 
+  "fields": {
+    "domain": "example.com", 
+    "name": "example.com"
+  }
+},
+{
+  "pk": 1, 
+  "model": "fadles.product", 
+  "fields": {
+    "is_popular": false, 
+    "start_price": 0, 
+    "name": "Very misterious player", 
+    "preview": "", 
+    "additional_info": "", 
+    "unit": "", 
+    "description": ""
+  }
+},
+{
+  "pk": 3, 
+  "model": "fadles.product", 
+  "fields": {
+    "is_popular": false, 
+    "start_price": 130, 
+    "name": "\u041f\u0438\u043b\u043e\u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b", 
+    "preview": "content/DOSKA.jpg", 
+    "additional_info": "<p><span style=\"color: rgb(0, 0, 0); font-family: Verdana, sans-serif;\">\u044e\u0442\u043d\u043e \u043d\u0435 \u0437\u0430\u0432\u0438\u0441\u044f\u0449\u0438\u0435 \u043d\u0438 \u043e\u0442 Oracle JRE, \u043d\u0438 \u043e\u0442 OpenJDK. \u041e\u0441\u043d\u043e\u0432\u043d\u0430\u044f \u0438\u0434\u0435\u043e\u043b\u043e\u0433\u0438\u044f \u0444\u0440\u0435\u0439\u043c\u0432\u043e\u0440\u043a\u0430 &mdash; \u043f\u043e \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0441\u043d\u044f\u0442\u044c \u0441 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u0430 \u0437\u0430\u0431\u043e\u0442\u044b \u043e\u0431 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u0438 &laquo;\u0440\u043e\u0434\u043d\u043e\u0433\u043e&raquo; look and feel \u0434\u043b\u044f \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f \u043f\u043e\u0434 \u043a\u0430\u0436\u0434\u043e\u0439 \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u043e\u0439.</span><br style=\"color: rgb(0, 0, 0); font-family: Verdana, sans-serif;\" />\r\n<br style=\"color: rgb(0, 0, 0); font-family: Verdana, sans-serif;\" />\r\n<span style=\"color: rgb(0, 0, 0); font-family: Verdana, sans-serif;\">\u0424\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438, \u043d\u0430 \u0432\u044b\u0445\u043e\u0434\u0435 \u0432\u044b \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0435 \u0438\u0441\u043f\u043e\u043b\u043d\u044f\u0435\u043c\u044b\u0439 \u0444\u0430\u0439\u043b, \u043e\u043f\u0438\u0440\u0430\u044e\u0449\u0438\u0439\u0441\u044f \u0442\u043e\u043b\u044c\u043a\u043e \u043d\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0435 API, \u043d\u0430 \u043a\u043e\u0442\u043e\u0440\u043e\u043c \u043d\u0438\u0433\u0434\u0435 \u043d\u0435 \u0431\u0443\u0434\u0435\u0442 \u043a\u043b\u0435\u0439\u043c\u0430 &laquo;\u043d\u0430\u043f\u0438\u0441\u0430\u043d\u043e \u043d\u0430 Java&raquo;.</span><br style=\"color: rgb(0, 0, 0); font-family: Verdana, sans-serif;\" />\r\n<br style=\"color: rgb(0, 0, 0); font-family: Verdana, sans-serif;\" />\r\n<span style=\"color: rgb(0, 0, 0); font-family: Verdana, sans-serif;\">\u0412\u0441\u0435 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u044b \u0444\u0440\u0435\u0439\u043c\u0432\u043e\u0440\u043a\u0430 \u0438\u043c\u0435\u044e\u0442 \u043b\u0438\u0431\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0435 \u043b\u0438\u0446\u0435\u043d\u0437\u0438\u0438 (BSD \u043b\u0438\u0431\u043e Apache), \u0447\u0442\u043e \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0438\u0445 \u0432 \u043b\u044e\u0431\u044b\u0445 (\u0432 \u0442\u043e\u043c \u0447\u0438\u0441\u043b\u0435, \u043a\u043e\u043c\u043c\u0435\u0440\u0447\u0435\u0441\u043a\u0438\u0445) \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430\u0445.</span><br style=\"color: rgb(0, 0, 0); font-family: Verdana, sans-serif;\" />\r\n<br style=\"color: rgb(0, 0, 0); font-family: Verdana, sans-serif;\" />\r\n<span style=\"color: rgb(0, 0, 0); font-family: Verdana, sans-serif;\">\u0424\u0440\u0435\u0439\u043c\u0432\u043e\u0440\u043a \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u0441\u044f \u0432 \u0441\u0442\u0430\u0434\u0438\u0438 \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0439 alpha-\u0432\u0435\u0440\u0441\u0438\u0438, \u0447\u0442\u043e \u043e\u0437\u043d\u0430\u0447\u0430\u0435\u0442 \u043d\u0435\u043a</span></p>\r\n", 
+    "unit": "\u043b\u0438\u0441\u0442", 
+    "description": "\u0418\u0433\u0440\u0430 \u043f\u0440\u043e\u0448\u043b\u0430 \u0434\u043b\u0438\u043d\u043d\u044b\u0439 \u043f\u0443\u0442\u044c \u043a \u0443\u0441\u043f\u0435\u0445\u0443, \u0438 \u0435\u0435 GUI \u043c\u0435\u043d\u044f\u043b\u0441\u044f \u0438 \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u043f\u0435\u0440\u0435\u0434\u0435\u043b\u044b\u0432\u0430\u043b\u0441\u044f \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0440\u0430\u0437 \u0432 \u043f\u043e\u0433\u043e\u043d\u0435 \u0437\u0430 \u043f\u043e\u0432\u044b\u0448\u0430\u044e\u0449\u0438\u043c\u0438\u0441\u044f \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f\u043c\u0438 \u0430\u0440\u043c\u0438\u0438 \u0442\u0430\u043d\u043a\u0438\u0441\u0442\u043e\u0432, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u043d\u0435\u0443\u043a\u043b\u043e\u043d\u043d\u043e \u0440\u043e\u0441\u043b\u0430.\r\n\r\n\u041f\u0440\u043e\u0440\u0430\u0431\u043e\u0442\u0430\u0432 \u0432 \u043e\u0442\u0434\u0435\u043b\u0435 GUI Programming \u0434\u0432\u0430 \u0441 \u043f\u043e\u043b\u043e\u0432\u0438\u043d\u043e\u0439 \u0433\u043e\u0434\u0430, \u044f \u043f\u043e\u043b\u0443\u0447\u0438\u043b \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043e \u0442\u043e\u043c, \u043a\u0430\u043a \u0440\u0430\u0437\u0432\u0438\u0432\u0430\u043b\u0441\u044f \u0441\u0430\u043c \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441 \u0432 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u043e\u043c \u043f\u043b\u0430\u043d\u0435 \u0438 \u043a\u0430\u043a \u043c\u0435\u043d\u044f\u043b\u0438\u0441\u044c \u043f\u043e\u0434\u0445\u043e\u0434\u044b \u0438 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b, \u044d\u0442\u043e \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u0435 \u0441\u043e\u043f\u0440\u043e\u0432\u043e\u0436\u0434\u0430\u0432\u0448\u0438\u0435."
+  }
+},
+{
+  "pk": 4, 
+  "model": "fadles.product", 
+  "fields": {
+    "is_popular": false, 
+    "start_price": 140, 
+    "name": "\u0414\u0421\u041f", 
+    "preview": "content/2013-01-09_stenu_iz_sendvich_paneley.jpg", 
+    "additional_info": "<p><span style=\"font-family: Verdana, sans-serif; font-size: 13px; line-height: 20.799999237060547px;\">\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u043c\u0435\u043d\u044f \u0437\u043e\u0432\u0443\u0442 \u042e\u0440\u0438\u0439 \u041c\u0438\u0445\u0430\u0439\u043b\u043e\u0432. \u0412 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 &laquo;\u041c\u0435\u0433\u0430\u0424\u043e\u043d&raquo; \u044f \u0437\u0430\u043d\u0438\u043c\u0430\u044e \u0434\u043e\u043b\u0436\u043d\u043e\u0441\u0442\u044c \u0434\u0438\u0440\u0435\u043a\u0442\u043e\u0440\u0430 &laquo;\u0426\u0435\u043d\u0442\u0440\u0430 \u043a\u043e\u043c\u043f\u0435\u0442\u0435\u043d\u0446\u0438\u0439 \u041e\u043d\u043b\u0430\u0439\u043d&raquo;. \u0421\u0435\u0433\u043e\u0434\u043d\u044f \u044f \u0445\u043e\u0442\u0435\u043b \u0431\u044b \u0440\u0430\u0441\u0441\u043a\u0430\u0437\u0430\u0442\u044c \u043e \u0442\u043e\u043c, \u043a\u0430\u043a \u043c\u044b \u043f\u0435\u0440\u0435\u0434\u0435\u043b\u0430\u043b\u0438 \u043f\u043e\u0440\u0442\u0430\u043b&nbsp;</span><a href=\"http://www.megafon.ru/\" style=\"margin: 0px; padding: 0px; border: 0px; font-size: 13px; vertical-align: baseline; outline: 0px; color: #990099; text-decoration: none; font-family: Verdana, sans-serif; line-height: 20.799999237060547px;\">www.megafon.ru</a><span style=\"font-family: Verdana, sans-serif; font-size: 13px; line-height: 20.799999237060547px;\">&nbsp;\u0438 \u0441\u043e\u0437\u0434\u0430\u043b\u0438 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 &laquo;\u041c\u0435\u0433\u0430\u0424\u043e\u043d \u041b\u0438\u0447\u043d\u044b\u0439 \u043a\u0430\u0431\u0438\u043d\u0435\u0442&raquo;.</span><br style=\"font-family: Verdana, sans-serif; font-size: 13px; line-height: 20.799999237060547px;\" />\r\n<br style=\"font-family: Verdana, sans-serif; font-size: 13px; line-height: 20.799999237060547px;\" />\r\n<span style=\"font-family: Verdana, sans-serif; font-size: 13px; line-height: 20.799999237060547px;\">\u0414\u043b\u044f \u0447\u0435\u0433\u043e \u043c\u044b \u044d\u0442\u043e \u0441\u0434\u0435\u043b\u0430\u043b\u0438? \u041d\u0435\u043a\u043e\u0442\u043e\u0440\u043e\u0435 \u0432\u0440\u0435\u043c\u044f \u043d\u0430\u0437\u0430\u0434 \u0441\u0442\u0430\u043b\u043e \u043e\u0447\u0435\u0432\u0438\u0434\u043d\u043e, \u0447\u0442\u043e \u0432\u0441\u0435\u043c&nbsp;\u043d\u0430\u0448\u0438\u043c \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f\u043c \u0443\u0436\u0435 \u043d\u0435\u0434\u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u043e \u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u043e\u0433\u043e \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0433\u043e \u043d\u0430\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f \u0441\u0430\u0439\u0442\u0430. \u0418\u043c \u043d\u0443\u0436\u043d\u044b \u0431\u044b\u043b\u0438 \u043d\u043e\u0432\u044b\u0435 \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u043f\u043e \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044e \u0443\u0441\u043b\u0443\u0433\u0430\u043c\u0438 \u0438 \u0441\u0435\u0440\u0432\u0438\u0441\u0430\u043c\u0438. \u041a \u0442\u043e\u043c\u0443 \u0436\u0435, \u043f\u0440\u0435\u0436\u043d\u0438\u0439 \u0434\u0438\u0437\u0430\u0439\u043d \u0441\u0430\u0439\u0442\u0430 \u0443\u0441\u0442\u0430\u0440\u0435\u043b \u0438 \u0431\u044b\u043b \u043d\u0435 \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0443\u0434\u043e\u0431\u0435\u043d \u0434\u043b\u044f \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0430 \u043d\u0430 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430\u0445. \u0418\u0434\u044f \u043d\u0430\u0432\u0441\u0442\u0440\u0435\u0447\u0443 \u043f\u043e\u0436\u0435\u043b\u0430\u043d\u0438\u044f\u043c \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439, \u043c\u044b \u043f\u0440\u0438\u043d\u044f\u043b\u0438 \u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u043f\u0440\u043e\u0432\u0435\u0441\u0442\u0438 \u0433\u043b\u0443\u0431\u043e\u043a\u0443\u044e \u043c\u043e\u0434\u0435\u0440\u043d\u0438\u0437\u0430\u0446\u0438\u044e \u043f\u043e\u0440\u0442\u0430\u043b\u0430.</span><br style=\"font-family: Verdana, sans-serif; font-size: 13px; line-height: 20.799999237060547px;\" />\r\n<br style=\"font-family: Verdana, sans-serif; font-size: 13px; line-height: 20.799999237060547px;\" />\r\n<span style=\"font-family: Verdana, sans-serif; font-size: 13px; line-height: 20.799999237060547px;\">\u042d\u0442\u0430 \u043c\u0430\u0441\u0448\u0442\u0430\u0431\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430 \u043d\u0430\u0447\u0430\u043b\u0430\u0441\u044c \u0432 2013 \u0433\u043e\u0434\u0443. \u0411\u044b\u043b\u0438 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u044b \u0434\u0435\u0441\u044f\u0442\u043a\u0438 \u0431\u043e\u043b\u044c\u0448\u0438\u0445 \u043f\u0440\u043e\u0435\u043a\u0442\u043e\u0432, \u0432\u0435\u0434\u044c \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043b\u043e\u0441\u044c \u043f\u0440\u043e\u0432\u0435\u0441\u0442\u0438 \u043c\u043d\u043e\u0433\u043e \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0439: \u043e\u0446\u0435\u043d\u0438\u0442\u044c \u0441\u0438\u043b\u044c\u043d\u044b\u0435 \u0438 \u0441\u043b\u0430\u0431\u044b\u0435 \u0441\u0442\u043e\u0440\u043e\u043d\u044b \u043d\u0430\u0448\u0438\u0445 \u0441\u0430\u0439\u0442\u043e\u0432, \u0434\u0435\u0442\u0430\u043b\u044c\u043d\u043e \u0438\u0437\u0443\u0447\u0438\u0442\u044c \u043b\u0443\u0447\u0448\u0438\u0439 \u043c\u0438\u0440\u043e\u0432\u043e\u0439 \u043e\u043f\u044b\u0442. \u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0431\u044b\u043b\u043e \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0438\u0442\u044c \u0446\u0435\u043b\u0438 \u0438 \u0437\u0430\u0434\u0430\u0447\u0438, \u043f\u0440\u043e\u0432\u0435\u0441\u0442\u0438 \u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u043d\u043e\u0432\u044b\u0445 \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u043e\u0432. \u0421 \u0441\u0430\u043c\u043e\u0433\u043e \u043d\u0430\u0447\u0430\u043b\u0430 \u043c\u044b \u043f\u043e\u0441\u0442\u0430\u0432\u0438\u043b\u0438 \u043f\u0435\u0440\u0435\u0434 \u0441\u043e\u0431\u043e\u0439 \u0446\u0435\u043b\u044c: \u043f\u0435\u0440\u0435\u0439\u0442\u0438 \u043e\u0442 \u043f\u043e\u0434\u0445\u043e\u0434\u0430 &laquo;\u0441\u0430\u0439\u0442 &mdash; \u044d\u0442\u043e \u0441\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a \u0430\u0431\u043e\u043d\u0435\u043d\u0442\u0430&raquo; \u043a \u0444\u0438\u043b\u043e\u0441\u043e\u0444\u0438\u0438 \u0432\u0430\u0436\u043d\u043e\u0433\u043e \u043a\u0430\u043d\u0430\u043b\u0430 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0438 \u043f\u0440\u043e\u0434\u0430\u0436.</span><br style=\"font-family: Verdana, sans-serif; font-size: 13px; line-height: 20.799999237060547px;\" />\r\n<br style=\"font-family: Verdana, sans-serif; font-size: 13px; line-height: 20.799999237060547px;\" />\r\n<span style=\"font-family: Verdana, sans-serif; font-size: 13px; line-height: 20.799999237060547px;\">\u041d\u0438\u0436\u0435 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u0435\u043d \u0440\u0430\u0441\u0441\u043a\u0430\u0437 \u043e \u0442\u043e\u043c, \u043a\u0430\u043a\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u043c\u044b \u043f\u0435\u0440\u0435\u0434 \u0441\u043e\u0431\u043e\u0439 \u043f\u043e\u0441\u0442\u0430\u0432\u0438\u043b\u0438 \u0438 \u0447\u0442\u043e \u0443\u0436\u0435 \u0441\u0434\u0435\u043b\u0430\u043b\u0438.</span></p>\r\n", 
+    "unit": "\u043c", 
+    "description": "\u0421\u0435\u0433\u043e\u0434\u043d\u044f \u043d\u0430 \u0440\u044b\u043d\u043a\u0435 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u043e\u0432 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u0438 \u0445\u043e\u0442\u044f\u0442 \u0432\u044b\u0434\u0435\u043b\u0438\u0442\u044c\u0441\u044f \u043d\u0435\u043f\u043e\u0432\u0442\u043e\u0440\u0438\u043c\u044b\u043c \u0434\u0438\u0437\u0430\u0439\u043d\u043e\u043c, \u0441\u0430\u043c\u044b\u043c \u044f\u0440\u043a\u0438\u043c \u0438 \u0447\u0451\u0442\u043a\u0438\u043c \u0434\u0438\u0441\u043f\u043b\u0435\u0435\u043c, \u0431\u044b\u0441\u0442\u0440\u044b\u043c \u0436\u0435\u043b\u0435\u0437\u043e\u043c \u0438 \u043e\u0433\u0440\u043e\u043c\u043d\u044b\u043c \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u043e\u043c. \u0418 \u044d\u0442\u043e \u0432 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u043c \u043e\u0442\u043d\u043e\u0441\u0438\u0442\u0441\u044f \u043a \u0442\u043e\u043f\u043e\u0432\u044b\u043c \u043c\u043e\u0434\u0435\u043b\u044f\u043c, \u0432\u0435\u0434\u044c \u043d\u0438\u043a\u043e\u043c\u0443 \u043d\u0435 \u0445\u043e\u0447\u0435\u0442\u0441\u044f \u043e\u0441\u0442\u0430\u0432\u0430\u0442\u044c\u0441\u044f \u043d\u0430 \u043e\u0431\u043e\u0447\u0438\u043d\u0435 \u0436\u0438\u0437\u043d\u0438. \u041d\u043e \u043d\u0435 \u0432\u0441\u0435\u043c \u043d\u0443\u0436\u043d\u0430 \u0432\u0441\u044f \u0441\u0430\u043c\u0430\u044f \u043d\u043e\u0432\u0430\u044f \u043d\u0430\u0447\u0438\u043d\u043a\u0430 \u0432 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u0435 \u0438 \u0443 \u043c\u043d\u043e\u0433\u0438\u0445"
+  }
+},
+{
+  "pk": 1, 
+  "model": "fadles.productimage", 
+  "fields": {
+    "product": 1, 
+    "image": "content/brus_copy.jpeg"
+  }
+},
+{
+  "pk": 2, 
+  "model": "fadles.productimage", 
+  "fields": {
+    "product": 1, 
+    "image": "content/P1170708 1024_768.jpg"
+  }
+},
+{
+  "pk": 3, 
+  "model": "fadles.productimage", 
+  "fields": {
+    "product": 1, 
+    "image": "content/1357637140773.jpg"
+  }
+},
+{
+  "pk": 4, 
+  "model": "fadles.productimage", 
+  "fields": {
+    "product": 1, 
+    "image": "content/images.jpeg"
+  }
+},
+{
+  "pk": 5, 
+  "model": "fadles.productimage", 
+  "fields": {
+    "product": 1, 
+    "image": "content/krona1_1.jpg"
+  }
+},
+{
+  "pk": 6, 
+  "model": "fadles.productimage", 
+  "fields": {
+    "product": 1, 
+    "image": "content/our_dsp.jpg"
+  }
+},
+{
+  "pk": 8, 
+  "model": "fadles.productimage", 
+  "fields": {
+    "product": 1, 
+    "image": "content/qsb1.jpg"
+  }
+},
+{
+  "pk": 9, 
+  "model": "fadles.productimage", 
+  "fields": {
+    "product": 1, 
+    "image": "content/our_dsp_1.jpg"
+  }
+},
+{
+  "pk": 10, 
+  "model": "fadles.productimage", 
+  "fields": {
+    "product": 1, 
+    "image": "content/pilomaterial.jpg"
+  }
+},
+{
+  "pk": 11, 
+  "model": "fadles.productimage", 
+  "fields": {
+    "product": 1, 
+    "image": "content/pilomaterialy_html_20c65722.jpg"
+  }
+},
+{
+  "pk": 12, 
+  "model": "fadles.productimage", 
+  "fields": {
+    "product": 1, 
+    "image": "content/pm.jpg"
+  }
+},
+{
+  "pk": 13, 
+  "model": "fadles.productimage", 
+  "fields": {
+    "product": 1, 
+    "image": "content/P1170708 1024_768_1.jpg"
+  }
+},
+{
+  "pk": 14, 
+  "model": "fadles.productimage", 
+  "fields": {
+    "product": 1, 
+    "image": "content/pilomaterialy_html_20c65722_1.jpg"
+  }
+},
+{
+  "pk": 15, 
+  "model": "fadles.productimage", 
+  "fields": {
+    "product": 1, 
+    "image": "content/pilomaterialy_html_20c65722_2.jpg"
+  }
+},
+{
+  "pk": 1, 
+  "model": "fadles.productcertificate", 
+  "fields": {
+    "product": 1, 
+    "name": "\u0421\u0435\u0440\u0442\u0438\u0444\u0438\u043a\u0430\u0442 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u044f \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430", 
+    "image": "content/BDu0oLw3xYI.jpg"
+  }
+},
+{
+  "pk": 2, 
+  "model": "fadles.productcertificate", 
+  "fields": {
+    "product": 1, 
+    "name": "\u0421\u0435\u0440\u0442\u0438\u0444\u0438\u043a\u0430\u0442 \u043f\u043e\u0436\u0430\u0440\u043d\u043e\u0439 \u0431\u0435\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438", 
+    "image": "content/serp_V3_1200.png"
+  }
+},
+{
+  "pk": 2, 
+  "model": "fadles.house", 
+  "fields": {
+    "preview": "content/ydR3gaOBbmw.jpg", 
+    "name": "\u0414\u043e\u043c \u043d\u0430 \u043d\u043e\u0432\u043e\u0432\u043e\u0439\u043a\u043e\u0432\u0441\u043a\u043e-\u043f\u0441\u043a\u043e\u0432\u0441\u043a\u043e\u0439", 
+    "description": "<p>\u0425\u043e\u0440\u043e\u0448\u0438\u0439 \u0434\u043e\u043c, \u043f\u043e \u0445\u043e\u0440\u043e\u0448\u0435\u0439 \u0446\u0435\u043d\u0435.</p>\r\n"
+  }
+},
+{
+  "pk": 1, 
+  "model": "fadles.houseimage", 
+  "fields": {
+    "product": 1, 
+    "image": "content/1314748660972.jpg"
+  }
+},
+{
+  "pk": 2, 
+  "model": "fadles.houseimage", 
+  "fields": {
+    "product": 1, 
+    "image": "content/1314804124160.png"
+  }
+},
+{
+  "pk": 1, 
+  "model": "fadles.popularproduct", 
+  "fields": {
+    "start_price": 1400, 
+    "product": 3, 
+    "is_active": true, 
+    "preview": "content/pilomaterial_1.jpg", 
+    "unit": "\u043c. \u043a\u0443\u0431.", 
+    "size": "150x140x4000"
+  }
+},
+{
+  "pk": 2, 
+  "model": "fadles.popularproduct", 
+  "fields": {
+    "start_price": 4500, 
+    "product": 4, 
+    "is_active": true, 
+    "preview": "content/qsb1_1.jpg", 
+    "unit": "\u043c. \u043a\u0432.", 
+    "size": "2200x2400x100 \u041b\u0438\u043f\u0430"
+  }
+},
+{
+  "pk": 1, 
+  "model": "fadles.producttable", 
+  "fields": {
+    "table": "content/1405496132.61.csv", 
+    "product": 4, 
+    "name": "\u041f\u0438\u0445\u0442\u0430", 
+    "table_json": "[{\"0\": \"\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415\", \"1\": \"2\u041c\", \"2\": \"2\u041c\", \"3\": \"2\u041c\", \"4\": \"2\u041c\", \"5\": \"2\u041c\"}, {\"0\": \"\u043a\u043e\u0440\u043e\u0432\u0430\", \"1\": \"-\", \"2\": \"-\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\"}, {\"0\": \"\u043a\u043e\u0440\u043e\u0432\u0430\", \"1\": \"-\", \"2\": \"-\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\"}, {\"0\": \"\u043b\u043e\u0441\u044c\", \"1\": \"-\", \"2\": \"-\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\"}, {\"0\": \"\u043c\u043e\u043b\u043e\u043a\u043e\", \"1\": \"-\", \"2\": \"-\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\"}]"
+  }
+},
+{
+  "pk": 2, 
+  "model": "fadles.producttable", 
+  "fields": {
+    "table": "content/1405496132.62.csv", 
+    "product": 4, 
+    "name": "\u041e\u043b\u044c\u0445\u0430", 
+    "table_json": "[{\"0\": \"\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415\", \"1\": \"\u041f\u0410\u0427\u0415\u041a \u0412 \u041c3\", \"2\": \"\u201c\u042d\u201d \u0420\u041e\u0417\u041d\", \"3\": \"\u201c\u0410\u201d \u0420\u041e\u0417\u041d\", \"4\": \"\u201c\u042d\u201d \u041e\u041f\u0422\", \"5\": \"\u201c\u0410\u201d \u041e\u041f\u0422\"}, {\"0\": \"\u0412\u0430\u0433\u043e\u043d\u043a\u0430 \u0445\u0432\u043e\u044f 1,8\u043c\", \"1\": \"6\", \"2\": \"-\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\"}, {\"0\": \"\u0412\u0430\u0433\u043e\u043d\u043a\u0430 \u0445\u0432\u043e\u044f 1,8\u043c\", \"1\": \"6\", \"2\": \"-\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\"}, {\"0\": \"\u0412\u0430\u0433\u043e\u043d\u043a\u0430 \u0445\u0432\u043e\u044f 1,8\u043c\", \"1\": \"6\", \"2\": \"-\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\"}, {\"0\": \"\u0412\u0430\u0433\u043e\u043d\u043a\u0430 \u0445\u0432\u043e\u044f 1,8\u043c\", \"1\": \"6\", \"2\": \"-\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\"}]"
+  }
+},
+{
+  "pk": 3, 
+  "model": "fadles.producttable", 
+  "fields": {
+    "table": "content/1405496159.07.csv", 
+    "product": 3, 
+    "name": "\u041b\u0438\u0441\u0442\u0432\u0435\u043d\u043d\u0438\u0446\u0430", 
+    "table_json": "[{\"0\": \"\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415\", \"1\": \"\u041f\u0410\u0427\u0415\u041a \u0412 \u041c3\", \"2\": \"\u201c\u042d\u201d \u0420\u041e\u0417\u041d\", \"3\": \"\u201c\u0410\u201d \u0420\u041e\u0417\u041d\", \"4\": \"\u201c\u042d\u201d \u041e\u041f\u0422\", \"5\": \"\u201c\u0410\u201d \u041e\u041f\u0422\"}, {\"0\": \"\u0412\u0430\u0433\u043e\u043d\u043a\u0430 \u0445\u0432\u043e\u044f 1,8\u043c\", \"1\": \"6\", \"2\": \"-\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\"}, {\"0\": \"\u0412\u0430\u0433\u043e\u043d\u043a\u0430 \u0445\u0432\u043e\u044f 1,8\u043c\", \"1\": \"6\", \"2\": \"-\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\"}, {\"0\": \"\u0412\u0430\u0433\u043e\u043d\u043a\u0430 \u0445\u0432\u043e\u044f 1,8\u043c\", \"1\": \"6\", \"2\": \"-\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\"}, {\"0\": \"\u0412\u0430\u0433\u043e\u043d\u043a\u0430 \u0445\u0432\u043e\u044f 1,8\u043c\", \"1\": \"6\", \"2\": \"-\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\"}]"
+  }
+},
+{
+  "pk": 4, 
+  "model": "fadles.producttable", 
+  "fields": {
+    "table": "content/1405496159.08.csv", 
+    "product": 3, 
+    "name": "\u0415\u043b\u044c", 
+    "table_json": "[{\"0\": \"\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415\", \"1\": \"2\u041c\", \"2\": \"2\u041c\", \"3\": \"2\u041c\", \"4\": \"2\u041c\", \"5\": \"2\u041c\"}, {\"0\": \"\u043a\u043e\u0440\u043e\u0432\u0430\", \"1\": \"-\", \"2\": \"-\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\"}, {\"0\": \"\u043a\u043e\u0440\u043e\u0432\u0430\", \"1\": \"-\", \"2\": \"-\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\"}, {\"0\": \"\u043b\u043e\u0441\u044c\", \"1\": \"-\", \"2\": \"-\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\"}, {\"0\": \"\u043c\u043e\u043b\u043e\u043a\u043e\", \"1\": \"-\", \"2\": \"-\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\"}]"
+  }
+},
+{
+  "pk": 5, 
+  "model": "fadles.producttable", 
+  "fields": {
+    "table": "content/1405498297.86.csv", 
+    "product": 4, 
+    "name": "\u0412\u0430\u0433\u043e\u043d\u043a\u0430", 
+    "table_json": "[{\"0\": \"\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415\", \"1\": \"\u041f\u0410\u0427\u0415\u041a \u0412 \u041c3\", \"2\": \"\u201c\u042d\u201d \u0420\u041e\u0417\u041d\", \"3\": \"\u201c\u0410\u201d \u0420\u041e\u0417\u041d\", \"4\": \"\u201c\u042d\u201d \u041e\u041f\u0422\", \"5\": \"\u201c\u0410\u201d \u041e\u041f\u0422\", \"6\": \" \u201c\u041e\u0413\u041e\u0413\u041e\u201d \u041e\u041f\u0422\"}, {\"0\": \"\u0412\u0430\u0433\u043e\u043d\u043a\u0430 \u0445\u0432\u043e\u044f 1,8\u043c\", \"1\": \"6\", \"2\": \" 30\u0440 \u043c.\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\", \"6\": \"1\"}, {\"0\": \"\u0412\u0430\u0433\u043e\u043d\u043a\u0430 \u0445\u0432\u043e\u044f 2,8\u043c\", \"1\": \"6\", \"2\": \"-\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\", \"6\": \"2\"}, {\"0\": \"\u0412\u0430\u0433\u043e\u043d\u043a\u0430 \u0445\u0432\u043e\u044f 3,8\u043c\", \"1\": \"6\", \"2\": \"-\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\", \"6\": \"3\"}, {\"0\": \"\u0412\u0430\u0433\u043e\u043d\u043a\u0430 \u0445\u0432\u043e\u044f 4,8\u043c\", \"1\": \"6\", \"2\": \"-\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\", \"6\": \"4\"}, {\"0\": \"\u0412\u0430\u0433\u043e\u043d\u043a\u0430 \u0445\u0432\u043e\u044f 5,8\u043c\", \"1\": \"6\", \"2\": \"-\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\", \"6\": \"5\"}, {\"0\": \"\u0412\u0430\u0433\u043e\u043d\u043a\u0430 \u0445\u0432\u043e\u044f 6,8\u043c\", \"1\": \"6\", \"2\": \"-\", \"3\": \"-\", \"4\": \"-\", \"5\": \"-\", \"6\": \"6\"}]"
+  }
+},
+{
+  "pk": 1, 
+  "model": "fadles.contactus", 
+  "fields": {
+    "phone": "123", 
+    "message": "test", 
+    "name": "\u0410\u043d\u0434\u0440\u0435\u0439", 
+    "datetime_created": "2014-07-20T20:03:47Z", 
+    "email": "test@test.com"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||01e9d81494cb09db6d62ad09618aa0f5", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/4b/c8/4bc8559cee91668bc2ba66f8207ecabb.jpg\", \"size\": [107, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||0271886d7921e55b8c04d9c100a9af7d", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/de/2c/de2c8f209a721a2e6e05bee935ee6509.jpg\", \"size\": [58, 58]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||02ae27fd13f1775055a8beb7482249c8", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/be/cc/becca461ee44720e91bf1570e9d33521.jpg\", \"size\": [107, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||06672f7a84821f45c306e6b403c6c53f", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/8c/c4/8cc443a45ad3d8eeade307710010a2ba.jpg\", \"size\": [298, 200]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||084bdd7871405fcf1ba32342019052bc", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/ea/2a/ea2aaa42401d9113719b0ed6a1d3652c.jpg\", \"size\": [300, 300]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||0cd8e1186e4261b8bea743544a46fb82", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/1362298939329.jpg\", \"size\": [604, 496]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||0d404143a3e63c3e5d16a256bdb54bf2", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/ca/e6/cae68a4cf304b605496e0ebb4ad649d0.jpg\", \"size\": [58, 58]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||0eb037149d5f8502b571341ff43fd3ee", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/1314748660972.jpg\", \"size\": [550, 444]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||0eb93ce18a5917935850cead79acc7d3", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/36/69/366951c367b6073b7465d10e085dca8f.jpg\", \"size\": [298, 200]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||0f0bfd1697906c73882100a00a0ff078", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/pilomaterialy_html_20c65722_1.jpg\", \"size\": [1429, 804]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||1336dd3a3eedc624b866aacc0211f48a", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/6c/76/6c7631ba86c0b4c63ab64fade7926fb8.jpg\", \"size\": [200, 150]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||1489b9540def0b3c8037bbbe965d6675", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/79/7d/797d7f1f57341b0c8fcd586bbcaa0f5d.jpg\", \"size\": [298, 200]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||148cb3cb71dca983d35ec8edd84c0d29", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/534-ebat-tyi-loh.jpg\", \"size\": [700, 525]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||16715b58c136c58f37f63a1117c7d056", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/_TeW0eVcsM0.jpg\", \"size\": [458, 458]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||17da6254cfdabf51e7275284fc9d91af", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/43/c6/43c6c61d37f211eacf67f4957a604d80.jpg\", \"size\": [100, 100]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||196aa2ec316cad8bf12dfc6fa1850f0d", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/67/51/67517fdd5d3a80dd886fe1914dc1ed90.jpg\", \"size\": [100, 75]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||1abb5cd72f7bc3fb9e70d74f88c21092", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/08/cf/08cfb4913b35f23c559399710742c135.jpg\", \"size\": [107, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||1f85c4971bfcf3869c07983f601ca777", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/77/32/7732b8c4e7c2f7d697c9a2ed883c7f38.jpg\", \"size\": [81, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||203c497b0a79dd1c939a0937d98cbf28", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/f4/ad/f4ad55006943003dcb9f8e9aeec0acb5.jpg\", \"size\": [58, 58]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||2147078c8b1b9892b3ad5f27d9773590", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/21/86/21868d79019a37c039d234ba00dcbf71.jpg\", \"size\": [100, 99]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||2159f3844713acbf5ba5b27d892e166f", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/f8/09/f809c9b6d5d67d0194761ce3707e8f82.jpg\", \"size\": [140, 95]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||23dec99557bfc78455e5c54fd12fb64b", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/pilomaterialy_html_20c65722_2.jpg\", \"size\": [1429, 804]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||266951cf16bf9a701c31b58c720d2ddd", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/P1170708 1024_768.jpg\", \"size\": [1024, 768]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||26958a8609c8130a059c1d6fef375a4c", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/P1170708 1024_768_1.jpg\", \"size\": [1024, 768]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||27d55fc360c3f02768e91ec89fe8b64b", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/1d/ec/1dec98123cda29b0046af52848d6e56e.jpg\", \"size\": [90, 90]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||2aab8bc2e912a0c39fc7c6e8bf417bfe", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/a1/2a/a12ae62b289d75cdb8d26823fa8e1ac2.jpg\", \"size\": [52, 79]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||2c6b5aa6ab3db2331182d99a739dca21", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/d3/a8/d3a891637552f6cda242c342d5478cdc.jpg\", \"size\": [300, 300]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||2eb982ec74e1eb9c3e82f0ddc58a8ce0", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/4e/21/4e21d7193619bb9c06ed4eb87452f1fe.jpg\", \"size\": [300, 300]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||335ddec3446754a132c2b6be1d6901cc", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/qsb1_1.jpg\", \"size\": [400, 400]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||36099ec9f57c3e1a3e7502ea6fa95a62", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/78/45/78451d5e60b8d4f0ca14568ae3474a5a.jpg\", \"size\": [53, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||3a3a0630ab14c70d29ba6272ecff374b", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"./SZDW0Jctq-I.jpg\", \"size\": [604, 403]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||3a6dad2d20b22e235379a616e15d4d7a", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/krona1_1.jpg\", \"size\": [576, 389]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||3aa6fc0e94751f42602d2db7b9dab0a1", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/2013-01-09_stenu_iz_sendvich_paneley_1.jpg\", \"size\": [2009, 1196]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||3ac0d39a138caca12688745d1d0dcca6", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/pilomaterial_1.jpg\", \"size\": [320, 216]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||3b2d7450d73508246609fda2b57ec2b5", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/f3/f6/f3f601993338eff621b9b056fb0f7147.jpg\", \"size\": [118, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||3d08ab30db26f022c6eef89fb65544ef", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/images.jpeg\", \"size\": [325, 155]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||3d7075eb30a667038fc7f3fa2a0584fb", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/9e/df/9edf247cd9a3bc3ccd5a34ef4a299de7.jpg\", \"size\": [126, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||3dfcceeb204fdb297c23d01458875984", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/69/db/69db6032f344729719a2a06451fa43d4.jpg\", \"size\": [300, 300]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||448fcd9fbdee076dcb4cafd190bec833", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/bf/85/bf854ec2d863313e4611c3d23cf3dd2b.jpg\", \"size\": [134, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||4572f01480feb331001a87d026c6452c", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/qsb1.jpg\", \"size\": [400, 400]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||4fd8587a9816901083c8da48145950b8", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/DOSKA.jpg\", \"size\": [1037, 778]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||56d2ddd10a4bd82913e73b5fcbee6061", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/ca/39/ca39048b618b36e975ed939a210a6d79.jpg\", \"size\": [58, 58]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||57cd25b9e66613606c82dd01fb3ef002", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/e9/75/e975742e5ff79e0c82e31806010629eb.jpg\", \"size\": [142, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||5b684f141c114649437ed657c0d86e90", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/ff/71/ff71d2351b2dd30bd1055a27083fe5a1.jpg\", \"size\": [80, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||5d7e57a3f1ecc01bca008741d6febe58", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/af/cb/afcbc38f52b70602564ed243c1cf3a12.jpg\", \"size\": [107, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||5fb0fff3582b30530d1ed07f4c7a86f6", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/pilomaterial.jpg\", \"size\": [320, 216]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||61bf2c79e38c222d3654b087d128ae07", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/50/b1/50b1afd02a22af92d753ea2613b09209.jpg\", \"size\": [58, 58]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||631cb405af7ea8b813938949db98b1a3", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/serp_V3_1200.png\", \"size\": [1200, 1830]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||6762d395dea36f62dafd54f3b606ad62", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/08/0b/080bc827cc1b3df34e6818f3cfe2a00f.jpg\", \"size\": [80, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||683b7512925fd868dc59ae9ac03ee7ac", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/3c/a2/3ca29c1edfcc946586b72abeb926ffa7.jpg\", \"size\": [100, 100]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||6bf54f3173ca5ac7bc4bd718130ce72f", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/2e/ee/2eee31984c0a91cece721b151a2cd13b.jpg\", \"size\": [300, 300]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||6e72cadc8c8c0cb3f4282b2ec9c2c08b", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/9e/e1/9ee185e04f93e51e29294c5f4d513385.jpg\", \"size\": [100, 100]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||6f5dde4cc8d9185814fe9953f15e9ea0", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/1352668093225.jpg\", \"size\": [1200, 900]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||721118361a7998c07262c242ee60e204", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/2c/80/2c80f190d275df44ca57e5bae5ae82b6.jpg\", \"size\": [300, 300]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||7d330efdba65d4eb517d45e7c81a0c65", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/62/a0/62a05b9107a7da10ab40896672a097ff.jpg\", \"size\": [99, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||7ec4a9d302b75c7b0f178caf1440b9a4", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/3d/3e/3d3ea68ef6b00ecf2a95c826975d7c88.jpg\", \"size\": [58, 58]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||80d49e0a99dcf53128c661c565602241", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/2f/6f/2f6f5440cdaf964536cf75c310f55523.jpg\", \"size\": [58, 58]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||837a812cda3e014351a13444162832be", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/de/14/de147b8ec67d07e6d8670505cdbf5df5.jpg\", \"size\": [142, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||842be24abe5b4882d9ec79baa5fd95c3", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/our_dsp.jpg\", \"size\": [239, 241]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||89bcaa65080ef81763ab79bbe491a22d", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/96/05/96053ecf0f6b91b55937cd728e78a555.jpg\", \"size\": [300, 242]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||8a0e7a152061528c6749a7dd9f08dd66", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/8b/ce/8bce2adcc73c044dc0d2d558052d1c06.jpg\", \"size\": [58, 58]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||8c26b60f89fc9694ea64b053a52ed549", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/fb/b7/fbb7f2e34c0b88525c1c8a6015142b54.jpg\", \"size\": [298, 200]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||8c81b5350081b1ccde78765bb94522d6", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/d7/6e/d76ed934fbe262d1af7726611ea0f328.jpg\", \"size\": [79, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||8cb4cf46c3d6ff88f0d130080df8376f", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/BDu0oLw3xYI.jpg\", \"size\": [532, 526]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||8cffaece456a0e9cdca186e2e8291c50", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/1d/5c/1d5c993f865628fea6e5f11a9585d636.jpg\", \"size\": [168, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||8d9a4cacd62890cc937848dbef2f5b22", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/brus_copy.jpeg\", \"size\": [1600, 1200]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||8ded57c701aa0b55335cb5894362f3b4", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/90/98/9098c667bcfbc4e000b36e8fb35ffdfa.jpg\", \"size\": [58, 58]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||8df5e5579f70783e66f5b3cac48b6f89", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/c5/b5/c5b5f158d0a0423f223ea0b3b3137029.jpg\", \"size\": [300, 300]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||953e1195f73105ce8b6224fe93912c12", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/a1/35/a1358c19fe9607491d055a768a53c115.jpg\", \"size\": [300, 200]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||95ebeeafcec0213c48b72da7f33462b4", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/pm.jpg\", \"size\": [360, 300]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||9671f1b1d64b60ec7abbe5efac92fa24", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/92/c2/92c2a5aad9401488185192ba3c6124fc.jpg\", \"size\": [107, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||980b3ac8fe1849c180e40ca47d61383f", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/bf/d9/bfd9d553d582838c87510d26fd7b6620.jpg\", \"size\": [58, 58]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||99d4654d04866683fa939bf8d93087c4", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/_TeW0eVcsM0_1.jpg\", \"size\": [458, 458]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||9a02767c2cd4c7c8aa99f076b4e6c281", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/52/ab/52ab37edd29c4e215330830687df8e7f.jpg\", \"size\": [298, 200]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||9b82c01671e8532d16c82c89c87ba715", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/46/01/4601c65de30bf29a09adabe3936e18e6.jpg\", \"size\": [90, 90]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||9d11a50ae9951be9271004cbbbbf7cff", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/2013-01-09_stenu_iz_sendvich_paneley.jpg\", \"size\": [2009, 1196]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||9ec9649c5d3033113bd25ad77583622a", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/95/ee/95eea48258c3692f9fc54663140b50bf.jpg\", \"size\": [140, 95]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||9f91bb4301a45d074463bae1ee4bfeba", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/our_dsp_1.jpg\", \"size\": [239, 241]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||9fd4bea2939e4718f0c704e7e9f9d645", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/43/6e/436ec377424f664d9d74ec8d254971b8.jpg\", \"size\": [300, 300]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||a253f909b3afd6ce57f63ac443795b99", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/e0/31/e03105dde02d5c10c635e15c09848c0d.jpg\", \"size\": [79, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||a2a5fd2901f2b4a27f1c32735f9fbefc", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/SZDW0Jctq-I.jpg\", \"size\": [604, 403]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||a54162816334107e4f2df69c991fd37f", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/1314804124160.png\", \"size\": [600, 449]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||a8b5145b8230ed598bf92f5e8b31a7cd", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/a2/fc/a2fc05a9b6161715e1e7a64b8dceab7d.jpg\", \"size\": [300, 300]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||aa3afe70e4f31b9b14bb64ea04e63d8b", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/ed/2f/ed2f31c76e5a9210a163cc2d750ed763.jpg\", \"size\": [300, 225]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||ab911209a8a335e8af10ea018421c11b", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/c5/34/c53483daf6d2bbb9245cf5feaeb3ac71.jpg\", \"size\": [300, 300]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||ab9f6d09fb3860e000ffa213829787ac", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/14.png\", \"size\": [1220, 775]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||ac610624288a38142b9e4950394cef97", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/de/97/de97c6973dd2486f8e9f946c2c266d09.jpg\", \"size\": [90, 90]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||ac78e2be5314a54d66b2643eef254b95", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/1(5).jpg\", \"size\": [800, 600]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||ad2f6ec3140f1bf0e39e274de5313e7e", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/de/72/de72d60f8fc5d467e0e21eb6b9771590.jpg\", \"size\": [100, 100]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||ae9980116274b4ce220e6729c67e1afd", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/73/28/73281a3c4b36a4459084007f5180ad47.jpg\", \"size\": [300, 300]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||afb799139c973418ad930db856be6d9f", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/3d/51/3d51fd40a15c3c07c1507fdfcae4d8d4.jpg\", \"size\": [96, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||b17eaa55791de0ad9379a68750887760", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/ce/7e/ce7ec9dbd6756f236bd33e22ec712d73.jpg\", \"size\": [300, 300]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||b6af2224fb162185e53d6d4d6aa31ec4", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/ydR3gaOBbmw.jpg\", \"size\": [323, 604]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||b9719bb77b26866c0fa2beb90a8797d3", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/33/b0/33b02260a7a8e2cf23dbb3710e6ef018.jpg\", \"size\": [107, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||bbb89c2607576f3f12e85ce116ce02c6", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/f4/0c/f40c1533808f6d0681d40dc070ce5f64.jpg\", \"size\": [300, 300]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||be2139e2be227893f20917ecbdb495d5", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/1f/a0/1fa010f801ad51166ba36918ed80d888.jpg\", \"size\": [100, 68]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||be3bc00b225ea91ee31674b4d3155799", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/1356985925222.jpg\", \"size\": [640, 960]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||be3cdddb96ac9306f93297d0c02f9747", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/30/ce/30ce6b1f04438a0a7918dbbf9099f73c.jpg\", \"size\": [300, 200]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||c025b90f1c080914b0532471c90171fb", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/ed/c9/edc947d5d14a1c9e16804f0c46378738.jpg\", \"size\": [300, 300]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||c1349c21311ad071de9101a4119df6d0", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/e1/ce/e1ce7c58c7f594b66d6979da03dacef0.jpg\", \"size\": [300, 297]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||c2b35a94d17dd62a60306745f45826a3", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/50/69/506946d0c98235e12e51fea34177220d.jpg\", \"size\": [58, 58]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||c4db4d8ff30752f50421c1839b5297ef", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/0d/07/0d0788c08633931cdf38608a5cc2bb3d.jpg\", \"size\": [142, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||c60f4b0fa7c1e1d75788c7dc03e83ec0", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/96/19/9619f5b0a0b44cf2081e807e6412db57.jpg\", \"size\": [119, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||c6cb69f95c74d2924d74205a2f4efe4f", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/pilomaterialy_html_20c65722.jpg\", \"size\": [1429, 804]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||c7c6534cd95993587c98c25bc0afbb8d", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/1f/b0/1fb085cf7981b8500255a234d0683cd9.jpg\", \"size\": [90, 90]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||c8286984a6d561baf953e0045a1c0a63", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/db/1e/db1e51155a7669dd6550ac412570fcfe.jpg\", \"size\": [300, 300]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||cf9ccd5690ea505855fc4ffe005034eb", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/6c/f0/6cf01b9d24a9c83a66c6ce7f2ccf6675.jpg\", \"size\": [300, 300]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||cfbf7454e2039aec12adc29580b7091e", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/30/bf/30bf10605cd5004bd6d3cc2dc68fa5ce.jpg\", \"size\": [100, 153]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||d3a3cba2c2f0bc64dc95027f3648a7d2", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/64/6f/646fff307c26005550f2193702ce53ac.jpg\", \"size\": [300, 300]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||d7ba63387ecc2c2e471a7ffc145564fe", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/a0/1d/a01d3095a33e4bed681fdec73ceb2220.jpg\", \"size\": [58, 58]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||de396fccc79abc20e3cb4a0878771da9", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/db/4c/db4ca47465f2448362aea8793daef3ca.jpg\", \"size\": [58, 58]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||dfa0a6e0ab2d7800d7c68caedea27668", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/b7/06/b706866c9f6128e510417889dc968e4c.jpg\", \"size\": [300, 300]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||e3d56ec5caab5043bcb6b739ec826e04", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/a7/45/a745ebe3a755441c4ff2580a00e718ad.jpg\", \"size\": [300, 300]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||e3fdd6c375480d963bc5324ef00b94fd", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/eb/03/eb037b565f71d41a59cf39d39e69fe95.jpg\", \"size\": [90, 90]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||e417b102c3724756865c0f6cb2e7c8d7", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/c3/91/c3910d3b58976f2dac527c66e91d70d2.jpg\", \"size\": [200, 150]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||e96f00e9cc5d3994e48136481f688cb3", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/04/d3/04d3564aa2ac7c4334ed43ab14592e91.jpg\", \"size\": [300, 300]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||ea27daf2be0f08cd61486b5deaecbb34", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/1357637140773.jpg\", \"size\": [600, 447]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||ec66ad9973e3813efd55f25923710a5b", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/37/60/37603b6f37a2c05b44c058506b0cdbb9.jpg\", \"size\": [90, 90]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||f0bad55d6f93d3af05df8b963d5f4988", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"cache/37/00/3700ed1a4ccea73c0fa3ba66e310dc4f.jpg\", \"size\": [97, 80]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||image||f3ae546923f570f29de1e9679e163a9f", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "{\"storage\": \"django.core.files.storage.FileSystemStorage\", \"name\": \"content/Eiffel.jpg\", \"size\": [831, 1024]}"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||0cd8e1186e4261b8bea743544a46fb82", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"1489b9540def0b3c8037bbbe965d6675\", \"d3a3cba2c2f0bc64dc95027f3648a7d2\", \"f0bad55d6f93d3af05df8b963d5f4988\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||0eb037149d5f8502b571341ff43fd3ee", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"89bcaa65080ef81763ab79bbe491a22d\", \"0eb93ce18a5917935850cead79acc7d3\", \"7d330efdba65d4eb517d45e7c81a0c65\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||0f0bfd1697906c73882100a00a0ff078", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"837a812cda3e014351a13444162832be\", \"e96f00e9cc5d3994e48136481f688cb3\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||148cb3cb71dca983d35ec8edd84c0d29", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"8ded57c701aa0b55335cb5894362f3b4\", \"5d7e57a3f1ecc01bca008741d6febe58\", \"9fd4bea2939e4718f0c704e7e9f9d645\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||16715b58c136c58f37f63a1117c7d056", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"be3cdddb96ac9306f93297d0c02f9747\", \"c7c6534cd95993587c98c25bc0afbb8d\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||23dec99557bfc78455e5c54fd12fb64b", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"57cd25b9e66613606c82dd01fb3ef002\", \"3dfcceeb204fdb297c23d01458875984\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||266951cf16bf9a701c31b58c720d2ddd", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"b9719bb77b26866c0fa2beb90a8797d3\", \"980b3ac8fe1849c180e40ca47d61383f\", \"084bdd7871405fcf1ba32342019052bc\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||26958a8609c8130a059c1d6fef375a4c", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"2eb982ec74e1eb9c3e82f0ddc58a8ce0\", \"01e9d81494cb09db6d62ad09618aa0f5\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||335ddec3446754a132c2b6be1d6901cc", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"683b7512925fd868dc59ae9ac03ee7ac\", \"9ec9649c5d3033113bd25ad77583622a\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||3a3a0630ab14c70d29ba6272ecff374b", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"6e72cadc8c8c0cb3f4282b2ec9c2c08b\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||3a6dad2d20b22e235379a616e15d4d7a", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"b17eaa55791de0ad9379a68750887760\", \"3b2d7450d73508246609fda2b57ec2b5\", \"80d49e0a99dcf53128c661c565602241\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||3aa6fc0e94751f42602d2db7b9dab0a1", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"448fcd9fbdee076dcb4cafd190bec833\", \"c8286984a6d561baf953e0045a1c0a63\", \"d7ba63387ecc2c2e471a7ffc145564fe\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||3ac0d39a138caca12688745d1d0dcca6", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"be2139e2be227893f20917ecbdb495d5\", \"2159f3844713acbf5ba5b27d892e166f\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||3d08ab30db26f022c6eef89fb65544ef", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"2c6b5aa6ab3db2331182d99a739dca21\", \"8c26b60f89fc9694ea64b053a52ed549\", \"8cffaece456a0e9cdca186e2e8291c50\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||4572f01480feb331001a87d026c6452c", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"ab911209a8a335e8af10ea018421c11b\", \"8a0e7a152061528c6749a7dd9f08dd66\", \"6762d395dea36f62dafd54f3b606ad62\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||4fd8587a9816901083c8da48145950b8", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"9b82c01671e8532d16c82c89c87ba715\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||5fb0fff3582b30530d1ed07f4c7a86f6", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"56d2ddd10a4bd82913e73b5fcbee6061\", \"a8b5145b8230ed598bf92f5e8b31a7cd\", \"c60f4b0fa7c1e1d75788c7dc03e83ec0\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||631cb405af7ea8b813938949db98b1a3", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"cfbf7454e2039aec12adc29580b7091e\", \"2aab8bc2e912a0c39fc7c6e8bf417bfe\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||6f5dde4cc8d9185814fe9953f15e9ea0", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"196aa2ec316cad8bf12dfc6fa1850f0d\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||842be24abe5b4882d9ec79baa5fd95c3", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"a253f909b3afd6ce57f63ac443795b99\", \"0d404143a3e63c3e5d16a256bdb54bf2\", \"8df5e5579f70783e66f5b3cac48b6f89\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||8cb4cf46c3d6ff88f0d130080df8376f", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"1f85c4971bfcf3869c07983f601ca777\", \"c1349c21311ad071de9101a4119df6d0\", \"2147078c8b1b9892b3ad5f27d9773590\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||8d9a4cacd62890cc937848dbef2f5b22", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"e3d56ec5caab5043bcb6b739ec826e04\", \"9a02767c2cd4c7c8aa99f076b4e6c281\", \"9671f1b1d64b60ec7abbe5efac92fa24\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||95ebeeafcec0213c48b72da7f33462b4", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"afb799139c973418ad930db856be6d9f\", \"721118361a7998c07262c242ee60e204\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||99d4654d04866683fa939bf8d93087c4", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"5b684f141c114649437ed657c0d86e90\", \"06672f7a84821f45c306e6b403c6c53f\", \"6bf54f3173ca5ac7bc4bd718130ce72f\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||9d11a50ae9951be9271004cbbbbf7cff", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"27d55fc360c3f02768e91ec89fe8b64b\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||9f91bb4301a45d074463bae1ee4bfeba", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"c2b35a94d17dd62a60306745f45826a3\", \"ae9980116274b4ce220e6729c67e1afd\", \"8c81b5350081b1ccde78765bb94522d6\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||a2a5fd2901f2b4a27f1c32735f9fbefc", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"17da6254cfdabf51e7275284fc9d91af\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||a54162816334107e4f2df69c991fd37f", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"203c497b0a79dd1c939a0937d98cbf28\", \"02ae27fd13f1775055a8beb7482249c8\", \"aa3afe70e4f31b9b14bb64ea04e63d8b\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||ab9f6d09fb3860e000ffa213829787ac", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"3d7075eb30a667038fc7f3fa2a0584fb\", \"7ec4a9d302b75c7b0f178caf1440b9a4\", \"c025b90f1c080914b0532471c90171fb\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||ac78e2be5314a54d66b2643eef254b95", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"ac610624288a38142b9e4950394cef97\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||b6af2224fb162185e53d6d4d6aa31ec4", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"1336dd3a3eedc624b866aacc0211f48a\", \"ec66ad9973e3813efd55f25923710a5b\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||be3bc00b225ea91ee31674b4d3155799", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"36099ec9f57c3e1a3e7502ea6fa95a62\", \"61bf2c79e38c222d3654b087d128ae07\", \"dfa0a6e0ab2d7800d7c68caedea27668\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||c6cb69f95c74d2924d74205a2f4efe4f", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"c4db4d8ff30752f50421c1839b5297ef\", \"de396fccc79abc20e3cb4a0878771da9\", \"cf9ccd5690ea505855fc4ffe005034eb\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||ea27daf2be0f08cd61486b5deaecbb34", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"0271886d7921e55b8c04d9c100a9af7d\", \"1abb5cd72f7bc3fb9e70d74f88c21092\", \"bbb89c2607576f3f12e85ce116ce02c6\"]"
+  }
+},
+{
+  "pk": "sorl-thumbnail||thumbnails||f3ae546923f570f29de1e9679e163a9f", 
+  "model": "thumbnail.kvstore", 
+  "fields": {
+    "value": "[\"ad2f6ec3140f1bf0e39e274de5313e7e\", \"e417b102c3724756865c0f6cb2e7c8d7\", \"953e1195f73105ce8b6224fe93912c12\", \"e3fdd6c375480d963bc5324ef00b94fd\"]"
+  }
+},
+{
+  "pk": 1, 
+  "model": "south.migrationhistory", 
+  "fields": {
+    "applied": "2014-06-23T20:00:38Z", 
+    "app_name": "fadles", 
+    "migration": "0001_initial"
+  }
+},
+{
+  "pk": 2, 
+  "model": "south.migrationhistory", 
+  "fields": {
+    "applied": "2014-06-28T16:16:12Z", 
+    "app_name": "fadles", 
+    "migration": "0002_auto__add_productimage__del_field_product_image"
+  }
+},
+{
+  "pk": 3, 
+  "model": "south.migrationhistory", 
+  "fields": {
+    "applied": "2014-06-28T16:16:15Z", 
+    "app_name": "fadles", 
+    "migration": "0003_auto__add_productcertificate__add_field_product_preview__add_field_pro"
+  }
+},
+{
+  "pk": 4, 
+  "model": "south.migrationhistory", 
+  "fields": {
+    "applied": "2014-06-28T16:16:16Z", 
+    "app_name": "fadles", 
+    "migration": "0004_auto__add_house__add_houseimage"
+  }
+},
+{
+  "pk": 5, 
+  "model": "south.migrationhistory", 
+  "fields": {
+    "applied": "2014-07-10T07:02:11Z", 
+    "app_name": "fadles", 
+    "migration": "0005_auto__chg_field_house_description__chg_field_product_additional_info"
+  }
+},
+{
+  "pk": 6, 
+  "model": "south.migrationhistory", 
+  "fields": {
+    "applied": "2014-07-11T09:05:22Z", 
+    "app_name": "fadles", 
+    "migration": "0006_auto__add_sale__add_popularproduct"
+  }
+},
+{
+  "pk": 9, 
+  "model": "south.migrationhistory", 
+  "fields": {
+    "applied": "2014-07-16T07:34:07Z", 
+    "app_name": "fadles", 
+    "migration": "0007_auto__add_producttable"
+  }
+},
+{
+  "pk": 10, 
+  "model": "south.migrationhistory", 
+  "fields": {
+    "applied": "2014-07-20T20:02:22Z", 
+    "app_name": "fadles", 
+    "migration": "0008_add_first_product"
+  }
+},
+{
+  "pk": 11, 
+  "model": "south.migrationhistory", 
+  "fields": {
+    "applied": "2014-07-20T20:02:26Z", 
+    "app_name": "fadles", 
+    "migration": "0009_auto__add_contactus__del_field_productimage_property__add_field_produc"
+  }
+},
+{
+  "pk": 1, 
+  "model": "flatpages.flatpage", 
+  "fields": {
+    "registration_required": false, 
+    "title": "\u0424\u0430\u0434\u043b\u0435\u0441 :: \u041a\u043e\u043d\u0442\u0430\u043a\u0442\u044b", 
+    "url": "/contacts/", 
+    "template_name": "", 
+    "sites": [
+      1
+    ], 
+    "content": "<p><strong>\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u044b</strong></p>\r\n", 
+    "enable_comments": false
+  }
+},
+{
+  "pk": 2, 
+  "model": "flatpages.flatpage", 
+  "fields": {
+    "registration_required": false, 
+    "title": "\u0424\u0430\u0434\u043b\u0435\u0441 :: \u041e \u041d\u0430\u0441", 
+    "url": "/about/", 
+    "template_name": "", 
+    "sites": [
+      1
+    ], 
+    "content": "<p><b>\u041e\u043f\u0442\u043e\u0432\u043e-\u0440\u043e\u0437\u043d\u0438\u0447\u043d\u0430\u044f \u0442\u043e\u0440\u0433\u043e\u0432\u0430\u044f \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f &laquo;\u0424\u0410\u0414\u041b\u0415\u0421&raquo; \u0443\u0436\u0435 \u0431\u043e\u043b\u0435\u0435 11 \u043b\u0435\u0442 \u043d\u0430 \u0440\u044b\u043d\u043a\u0435 \u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u043e\u0432 \u0420\u043e\u0441\u0441\u0438\u0438.</b></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><b>\u0426\u0435\u043b\u044c\u044e \u0440\u0430\u0431\u043e\u0442\u044b \u043a\u043e\u043b\u043b\u0435\u043a\u0442\u0438\u0432\u0430 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 &laquo;\u0424\u0410\u0414\u041b\u0415\u0421&raquo; \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u043d\u043e\u0439 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u0430\u0446\u0438\u0435\u0439 \u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u043e\u0431\u044a\u0435\u043a\u0442\u043e\u0432 \u043f\u043e\u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e\u043c \u043f\u0440\u044f\u043c\u044b\u0445 \u043f\u043e\u0441\u0442\u0430\u0432\u043e\u043a \u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u043e\u0432 \u043d\u0430 \u043f\u0440\u044f\u043c\u0443\u044e \u0441 \u0437\u0430\u0432\u043e\u0434\u043e\u0432 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u0435\u0439. \u0422\u0430\u043a \u0436\u0435 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f &laquo;\u0424\u0410\u0414\u041b\u0415\u0421&raquo; \u0437\u0430\u043d\u0438\u043c\u0430\u0435\u0442\u0441\u044f \u043c\u0435\u043b\u043a\u043e\u043e\u043f\u0442\u043e\u0432\u043e\u0439 \u0438 \u0440\u043e\u0437\u043d\u0438\u0447\u043d\u043e\u0439 \u0442\u043e\u0440\u0433\u043e\u0432\u043b\u0435\u0439 \u0441\u043e \u0441\u0432\u043e\u0438\u0445 \u0441\u043a\u043b\u0430\u0434\u043e\u0432 \u0432 \u0433. \u041c\u043e\u0441\u043a\u0432\u0435.</b></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><b>\u041d\u0430 \u0441\u0435\u0433\u043e\u0434\u043d\u044f\u0448\u043d\u0438\u0439 \u0434\u0435\u043d\u044c \u043d\u0430\u0448\u0430 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u043c \u0434\u0438\u043b\u0435\u0440\u043e\u043c \u0440\u044f\u0434\u0430 \u043b\u0438\u0434\u0438\u0440\u0443\u044e\u0449\u0438\u0445 \u0437\u0430\u0432\u043e\u0434\u043e\u0432 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u0435\u0439, \u0434\u043e\u043b\u0433\u043e\u0441\u0440\u043e\u0447\u043d\u0430\u044f \u0438 \u0443\u0441\u043f\u0435\u0448\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430 \u0441 \u044d\u0442\u0438\u043c\u0438 \u043a\u043e\u043c\u0431\u0438\u043d\u0430\u0442\u0430\u043c\u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0442\u044c \u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043d\u0430 \u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0441\u043a\u043b\u0430\u0434\u044b \u0438 \u043d\u0430 \u0441\u043a\u043b\u0430\u0434\u044b \u043d\u0430\u0448\u0438\u0445 \u043f\u043e\u043a\u0443\u043f\u0430\u0442\u0435\u043b\u0435\u0439 \u0442\u043e\u0447\u043d\u043e \u0432 \u0441\u0440\u043e\u043a \u0438 \u043f\u043e \u043c\u0438\u043d\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u043c \u0446\u0435\u043d\u0430\u043c.&nbsp;</b></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p style=\"text-align:center\"><a href=\"http://fadles.ru/work/FILES/7/DoskaPolhvoyAB3NEW.jpg\"><img alt=\"\" src=\"http://fadles.ru/work/FILES/7/DoskaPolhvoyAB3NEW.jpg\" style=\"height: 150px; width: 100px;\" /></a>&nbsp;<img alt=\"\" src=\"http://fadles.ru/work/FILES/7/VAGONKANEW.jpg\" style=\"width: 100px; height: 150px;\" />&nbsp;<img alt=\"\" src=\"http://fadles.ru/work/FILES/7/VAGONKA2NEW.jpg\" style=\"width: 100px; height: 150px;\" /></p>\r\n\r\n<p style=\"text-align:center\">&nbsp;</p>\r\n\r\n<p><b>\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 \u043f\u043e \u041c\u043e\u0441\u043a\u0432\u0435 \u0438 \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u043e\u0439 \u043e\u0431\u043b\u0430\u0441\u0442\u0438 \u043e\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043f\u043e\u0434\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c\u043d\u044b\u043c \u043d\u0430\u0448\u0435\u0439 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u044b\u043c \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0435\u043c \u043d\u0430 \u043e\u0447\u0435\u043d\u044c \u0432\u044b\u0433\u043e\u0434\u043d\u044b\u0445 \u0443\u0441\u043b\u043e\u0432\u0438\u044f\u0445 \u0432 \u043c\u0438\u043d\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u0435 \u0441\u0440\u043e\u043a\u0438 \u0438 \u043f\u0440\u0438 \u043b\u044e\u0431\u044b\u0445 \u043e\u0431\u044a\u0435\u043c\u0430\u0445.</b></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><b>\u041c\u044b \u0432\u0441\u0435\u0433\u0434\u0430 \u043e\u0442\u043a\u0440\u044b\u0442\u044b \u043a \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u0447\u0435\u0441\u0442\u0432\u0443, \u043a\u0432\u0430\u043b\u0438\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b \u043d\u0430\u0448\u0435\u0439 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u0432\u0441\u0435\u0433\u0434\u0430 \u043f\u043e\u0434\u0440\u043e\u0431\u043d\u043e \u043f\u0440\u043e\u043a\u043e\u043d\u0441\u0443\u043b\u044c\u0442\u0438\u0440\u0443\u0435\u0442 \u0412\u0430\u0441 \u043f\u043e \u043a\u0430\u0436\u0434\u043e\u043c\u0443 \u0432\u0438\u0434\u0443 \u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u043e\u0432, \u043f\u043e\u043c\u043e\u0436\u0435\u0442 \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439 \u0432\u044b\u0431\u043e\u0440.</b></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><b>\u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f &laquo;\u0424\u0410\u0414\u041b\u0415\u0421&raquo; \u0432\u0441\u0435\u0433\u0434\u0430 \u0440\u0430\u0434\u0430 \u0432\u0438\u0434\u0435\u0442\u044c \u0412\u0430\u0441 \u0432 \u0447\u0438\u0441\u043b\u0435 \u043d\u0430\u0448\u0438\u0445 \u043f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u0445 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432!&nbsp;</b></p>\r\n", 
+    "enable_comments": false
+  }
+},
+{
+  "pk": 3, 
+  "model": "flatpages.flatpage", 
+  "fields": {
+    "registration_required": false, 
+    "title": "\u0424\u0430\u0434\u043b\u0435\u0441 :: \u041f\u0430\u0440\u0442\u043d\u0435\u0440\u044b", 
+    "url": "/partners/", 
+    "template_name": "", 
+    "sites": [
+      1
+    ], 
+    "content": "<p><u>\u041f\u0430\u0440\u0442\u043d\u0435\u0440\u044b</u></p>\r\n", 
+    "enable_comments": false
+  }
+},
+{
+  "pk": 1, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_permission", 
+    "name": "Can add permission", 
+    "content_type": 1
+  }
+},
+{
+  "pk": 2, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_permission", 
+    "name": "Can change permission", 
+    "content_type": 1
+  }
+},
+{
+  "pk": 3, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_permission", 
+    "name": "Can delete permission", 
+    "content_type": 1
+  }
+},
+{
+  "pk": 4, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_group", 
+    "name": "Can add group", 
+    "content_type": 2
+  }
+},
+{
+  "pk": 5, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_group", 
+    "name": "Can change group", 
+    "content_type": 2
+  }
+},
+{
+  "pk": 6, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_group", 
+    "name": "Can delete group", 
+    "content_type": 2
+  }
+},
+{
+  "pk": 7, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_user", 
+    "name": "Can add user", 
+    "content_type": 3
+  }
+},
+{
+  "pk": 8, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_user", 
+    "name": "Can change user", 
+    "content_type": 3
+  }
+},
+{
+  "pk": 9, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_user", 
+    "name": "Can delete user", 
+    "content_type": 3
+  }
+},
+{
+  "pk": 10, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_contenttype", 
+    "name": "Can add content type", 
+    "content_type": 4
+  }
+},
+{
+  "pk": 11, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_contenttype", 
+    "name": "Can change content type", 
+    "content_type": 4
+  }
+},
+{
+  "pk": 12, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_contenttype", 
+    "name": "Can delete content type", 
+    "content_type": 4
+  }
+},
+{
+  "pk": 13, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_session", 
+    "name": "Can add session", 
+    "content_type": 5
+  }
+},
+{
+  "pk": 14, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_session", 
+    "name": "Can change session", 
+    "content_type": 5
+  }
+},
+{
+  "pk": 15, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_session", 
+    "name": "Can delete session", 
+    "content_type": 5
+  }
+},
+{
+  "pk": 16, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_site", 
+    "name": "Can add site", 
+    "content_type": 6
+  }
+},
+{
+  "pk": 17, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_site", 
+    "name": "Can change site", 
+    "content_type": 6
+  }
+},
+{
+  "pk": 18, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_site", 
+    "name": "Can delete site", 
+    "content_type": 6
+  }
+},
+{
+  "pk": 19, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_logentry", 
+    "name": "Can add log entry", 
+    "content_type": 7
+  }
+},
+{
+  "pk": 20, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_logentry", 
+    "name": "Can change log entry", 
+    "content_type": 7
+  }
+},
+{
+  "pk": 21, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_logentry", 
+    "name": "Can delete log entry", 
+    "content_type": 7
+  }
+},
+{
+  "pk": 22, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_kvstore", 
+    "name": "Can add kv store", 
+    "content_type": 8
+  }
+},
+{
+  "pk": 23, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_kvstore", 
+    "name": "Can change kv store", 
+    "content_type": 8
+  }
+},
+{
+  "pk": 24, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_kvstore", 
+    "name": "Can delete kv store", 
+    "content_type": 8
+  }
+},
+{
+  "pk": 25, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_migrationhistory", 
+    "name": "Can add migration history", 
+    "content_type": 9
+  }
+},
+{
+  "pk": 26, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_migrationhistory", 
+    "name": "Can change migration history", 
+    "content_type": 9
+  }
+},
+{
+  "pk": 27, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_migrationhistory", 
+    "name": "Can delete migration history", 
+    "content_type": 9
+  }
+},
+{
+  "pk": 28, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_product", 
+    "name": "Can add product", 
+    "content_type": 10
+  }
+},
+{
+  "pk": 29, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_product", 
+    "name": "Can change product", 
+    "content_type": 10
+  }
+},
+{
+  "pk": 30, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_product", 
+    "name": "Can delete product", 
+    "content_type": 10
+  }
+},
+{
+  "pk": 31, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_productimage", 
+    "name": "Can add product image", 
+    "content_type": 11
+  }
+},
+{
+  "pk": 32, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_productimage", 
+    "name": "Can change product image", 
+    "content_type": 11
+  }
+},
+{
+  "pk": 33, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_productimage", 
+    "name": "Can delete product image", 
+    "content_type": 11
+  }
+},
+{
+  "pk": 34, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_productcertificate", 
+    "name": "Can add product certificate", 
+    "content_type": 12
+  }
+},
+{
+  "pk": 35, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_productcertificate", 
+    "name": "Can change product certificate", 
+    "content_type": 12
+  }
+},
+{
+  "pk": 36, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_productcertificate", 
+    "name": "Can delete product certificate", 
+    "content_type": 12
+  }
+},
+{
+  "pk": 37, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_house", 
+    "name": "Can add house", 
+    "content_type": 13
+  }
+},
+{
+  "pk": 38, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_house", 
+    "name": "Can change house", 
+    "content_type": 13
+  }
+},
+{
+  "pk": 39, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_house", 
+    "name": "Can delete house", 
+    "content_type": 13
+  }
+},
+{
+  "pk": 40, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_houseimage", 
+    "name": "Can add house image", 
+    "content_type": 14
+  }
+},
+{
+  "pk": 41, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_houseimage", 
+    "name": "Can change house image", 
+    "content_type": 14
+  }
+},
+{
+  "pk": 42, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_houseimage", 
+    "name": "Can delete house image", 
+    "content_type": 14
+  }
+},
+{
+  "pk": 43, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_flatpage", 
+    "name": "Can add flat page", 
+    "content_type": 15
+  }
+},
+{
+  "pk": 44, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_flatpage", 
+    "name": "Can change flat page", 
+    "content_type": 15
+  }
+},
+{
+  "pk": 45, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_flatpage", 
+    "name": "Can delete flat page", 
+    "content_type": 15
+  }
+},
+{
+  "pk": 46, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_popularproduct", 
+    "name": "Can add popular product", 
+    "content_type": 16
+  }
+},
+{
+  "pk": 47, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_popularproduct", 
+    "name": "Can change popular product", 
+    "content_type": 16
+  }
+},
+{
+  "pk": 48, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_popularproduct", 
+    "name": "Can delete popular product", 
+    "content_type": 16
+  }
+},
+{
+  "pk": 49, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_sale", 
+    "name": "Can add sale", 
+    "content_type": 17
+  }
+},
+{
+  "pk": 50, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_sale", 
+    "name": "Can change sale", 
+    "content_type": 17
+  }
+},
+{
+  "pk": 51, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_sale", 
+    "name": "Can delete sale", 
+    "content_type": 17
+  }
+},
+{
+  "pk": 52, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_producttable", 
+    "name": "Can add product table", 
+    "content_type": 18
+  }
+},
+{
+  "pk": 53, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_producttable", 
+    "name": "Can change product table", 
+    "content_type": 18
+  }
+},
+{
+  "pk": 54, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_producttable", 
+    "name": "Can delete product table", 
+    "content_type": 18
+  }
+},
+{
+  "pk": 55, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "add_contactus", 
+    "name": "Can add contact us", 
+    "content_type": 19
+  }
+},
+{
+  "pk": 56, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "change_contactus", 
+    "name": "Can change contact us", 
+    "content_type": 19
+  }
+},
+{
+  "pk": 57, 
+  "model": "auth.permission", 
+  "fields": {
+    "codename": "delete_contactus", 
+    "name": "Can delete contact us", 
+    "content_type": 19
+  }
+},
+{
+  "pk": 1, 
+  "model": "auth.user", 
+  "fields": {
+    "username": "fadles", 
+    "first_name": "", 
+    "last_name": "", 
+    "is_active": true, 
+    "is_superuser": true, 
+    "is_staff": true, 
+    "last_login": "2014-07-11T09:36:48Z", 
+    "groups": [], 
+    "user_permissions": [], 
+    "password": "pbkdf2_sha256$12000$eCta07OVm0oL$gNuBPqhixfx3I3g7X68laaquqjWPYhQJMQy8Q1SRxq8=", 
+    "email": "fadles@lenta.ru", 
+    "date_joined": "2014-06-23T20:00:29Z"
+  }
+},
+{
+  "pk": 1, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 1, 
+    "action_time": "2014-06-23T20:05:35Z", 
+    "object_repr": "Product object", 
+    "object_id": "1", 
+    "change_message": "", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 2, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 3, 
+    "action_time": "2014-06-24T20:53:38Z", 
+    "object_repr": "Product object", 
+    "object_id": "1", 
+    "change_message": "", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 3, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 1, 
+    "action_time": "2014-06-24T20:58:13Z", 
+    "object_repr": "Product object", 
+    "object_id": "2", 
+    "change_message": "", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 4, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 3, 
+    "action_time": "2014-06-28T16:17:20Z", 
+    "object_repr": "name", 
+    "object_id": "2", 
+    "change_message": "", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 5, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 1, 
+    "action_time": "2014-06-28T16:18:22Z", 
+    "object_repr": "\u0415\u043b\u044c", 
+    "object_id": "3", 
+    "change_message": "", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 6, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-06-28T16:19:24Z", 
+    "object_repr": "\u0415\u043b\u044c", 
+    "object_id": "3", 
+    "change_message": "Added product image \"ProductImage object\". Added product image \"ProductImage object\". Added product certificate \"ProductCertificate object\".", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 7, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-06-28T22:13:46Z", 
+    "object_repr": "\u0415\u043b\u044c", 
+    "object_id": "3", 
+    "change_message": "Added product image \"ProductImage object\".", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 8, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 1, 
+    "action_time": "2014-06-28T22:32:47Z", 
+    "object_repr": "New", 
+    "object_id": "2", 
+    "change_message": "", 
+    "user": 1, 
+    "content_type": 13
+  }
+},
+{
+  "pk": 9, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-06-28T22:32:57Z", 
+    "object_repr": "\u0414\u043e\u043c \u043d\u0430 \u043d\u043e\u0432\u043e\u0432\u043e\u0439\u043a\u043e\u0432\u0441\u043a\u043e- \u043f\u0430\u0441\u043a\u0443\u0434\u0441\u043a\u043e\u0439", 
+    "object_id": "2", 
+    "change_message": "Changed name.", 
+    "user": 1, 
+    "content_type": 13
+  }
+},
+{
+  "pk": 10, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-06-28T22:51:30Z", 
+    "object_repr": "\u0414\u043e\u043c \u043d\u0430 \u043d\u043e\u0432\u043e\u0432\u043e\u0439\u043a\u043e\u0432\u0441\u043a\u043e- \u043f\u0430\u0441\u043a\u0443\u0434\u0441\u043a\u043e\u0439", 
+    "object_id": "2", 
+    "change_message": "Added house image \"HouseImage object\". Added house image \"HouseImage object\".", 
+    "user": 1, 
+    "content_type": 13
+  }
+},
+{
+  "pk": 11, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-06-28T22:52:16Z", 
+    "object_repr": "\u0414\u043e\u043c \u043d\u0430 \u043d\u043e\u0432\u043e\u0432\u043e\u0439\u043a\u043e\u0432\u0441\u043a\u043e- \u043f\u0430\u0441\u043a\u0443\u0434\u0441\u043a\u043e\u0439", 
+    "object_id": "2", 
+    "change_message": "Changed description.", 
+    "user": 1, 
+    "content_type": 13
+  }
+},
+{
+  "pk": 12, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-06-29T13:57:53Z", 
+    "object_repr": "\u0415\u043b\u044c", 
+    "object_id": "3", 
+    "change_message": "Changed additional_info.", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 13, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 1, 
+    "action_time": "2014-06-30T07:44:13Z", 
+    "object_repr": "\u0445\u043e\u0440\u043e\u0448\u0438\u0439 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d", 
+    "object_id": "4", 
+    "change_message": "", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 14, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-06-30T14:43:01Z", 
+    "object_repr": "\u0414\u0421\u041f", 
+    "object_id": "4", 
+    "change_message": "Changed name.", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 15, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-06-30T14:44:13Z", 
+    "object_repr": "\u0414\u0421\u041f", 
+    "object_id": "4", 
+    "change_message": "Changed preview.", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 16, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-06-30T14:44:33Z", 
+    "object_repr": "\u0414\u0421\u041f", 
+    "object_id": "4", 
+    "change_message": "Added product image \"ProductImage object\". Added product image \"ProductImage object\". Added product image \"ProductImage object\".", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 17, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-06-30T18:55:07Z", 
+    "object_repr": "\u0415\u043b\u044c", 
+    "object_id": "3", 
+    "change_message": "Changed additional_info.", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 18, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-06-30T18:56:28Z", 
+    "object_repr": "\u0415\u043b\u044c", 
+    "object_id": "3", 
+    "change_message": "Changed additional_info.", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 19, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-06-30T20:26:19Z", 
+    "object_repr": "\u0414\u0421\u041f", 
+    "object_id": "4", 
+    "change_message": "Changed additional_info.", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 20, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 1, 
+    "action_time": "2014-06-30T21:07:18Z", 
+    "object_repr": "/contacts/ -- \u0424\u0430\u0434\u043b\u0435\u0441 :: \u041a\u043e\u043d\u0442\u0430\u043a\u0442\u044b", 
+    "object_id": "1", 
+    "change_message": "", 
+    "user": 1, 
+    "content_type": 15
+  }
+},
+{
+  "pk": 21, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 1, 
+    "action_time": "2014-06-30T21:07:33Z", 
+    "object_repr": "/about/ -- \u0424\u0430\u0434\u043b\u0435\u0441 :: \u041e \u041d\u0430\u0441", 
+    "object_id": "2", 
+    "change_message": "", 
+    "user": 1, 
+    "content_type": 15
+  }
+},
+{
+  "pk": 22, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 1, 
+    "action_time": "2014-06-30T21:07:50Z", 
+    "object_repr": "/partners/ -- \u0424\u0430\u0434\u043b\u0435\u0441 :: \u041f\u0430\u0440\u0442\u043d\u0435\u0440\u044b", 
+    "object_id": "3", 
+    "change_message": "", 
+    "user": 1, 
+    "content_type": 15
+  }
+},
+{
+  "pk": 23, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-02T09:13:45Z", 
+    "object_repr": "\u0414\u0421\u041f", 
+    "object_id": "4", 
+    "change_message": "Changed preview. Added product image \"ProductImage object\". Added product image \"ProductImage object\". Changed image for product image \"ProductImage object\". Changed image for product image \"ProductImage object\". Changed image for product image \"ProductImage object\".", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 24, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-02T09:13:58Z", 
+    "object_repr": "\u0414\u0421\u041f", 
+    "object_id": "4", 
+    "change_message": "Added product image \"ProductImage object\".", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 25, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-02T09:16:53Z", 
+    "object_repr": "\u041f\u0438\u043b\u043e\u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b", 
+    "object_id": "3", 
+    "change_message": "Changed name, preview and additional_info. Added product image \"ProductImage object\". Added product image \"ProductImage object\". Added product image \"ProductImage object\". Changed image for product image \"ProductImage object\". Changed image for product image \"ProductImage object\".", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 26, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-02T09:17:05Z", 
+    "object_repr": "\u041f\u0438\u043b\u043e\u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b", 
+    "object_id": "3", 
+    "change_message": "Added product image \"ProductImage object\". Added product image \"ProductImage object\".", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 27, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-02T09:17:52Z", 
+    "object_repr": "\u041f\u0438\u043b\u043e\u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b", 
+    "object_id": "3", 
+    "change_message": "Changed description.", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 28, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-02T09:18:26Z", 
+    "object_repr": "\u0414\u043e\u043c \u043d\u0430 \u043d\u043e\u0432\u043e\u0432\u043e\u0439\u043a\u043e\u0432\u0441\u043a\u043e- ", 
+    "object_id": "2", 
+    "change_message": "Changed name and description.", 
+    "user": 1, 
+    "content_type": 13
+  }
+},
+{
+  "pk": 29, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-02T09:19:40Z", 
+    "object_repr": "\u0414\u0421\u041f", 
+    "object_id": "4", 
+    "change_message": "Deleted product image \"ProductImage object\".", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 30, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-02T09:19:56Z", 
+    "object_repr": "\u0414\u0421\u041f", 
+    "object_id": "4", 
+    "change_message": "Added product image \"ProductImage object\".", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 31, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 1, 
+    "action_time": "2014-07-11T09:23:55Z", 
+    "object_repr": "\u041f\u0438\u043b\u043e\u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b", 
+    "object_id": "1", 
+    "change_message": "", 
+    "user": 1, 
+    "content_type": 16
+  }
+},
+{
+  "pk": 32, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-11T09:28:11Z", 
+    "object_repr": "\u041f\u0438\u043b\u043e\u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b", 
+    "object_id": "1", 
+    "change_message": "Changed preview.", 
+    "user": 1, 
+    "content_type": 16
+  }
+},
+{
+  "pk": 33, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 1, 
+    "action_time": "2014-07-11T09:30:56Z", 
+    "object_repr": "\u0414\u0421\u041f", 
+    "object_id": "2", 
+    "change_message": "", 
+    "user": 1, 
+    "content_type": 16
+  }
+},
+{
+  "pk": 34, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-11T09:37:00Z", 
+    "object_repr": "\u0414\u043e\u043c \u043d\u0430 \u043d\u043e\u0432\u043e\u0432\u043e\u0439\u043a\u043e\u0432\u0441\u043a\u043e-\u043f\u0441\u043a\u043e\u0432\u0441\u043a\u043e\u0439", 
+    "object_id": "2", 
+    "change_message": "Changed name.", 
+    "user": 1, 
+    "content_type": 13
+  }
+},
+{
+  "pk": 35, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-15T07:58:31Z", 
+    "object_repr": "/about/ -- \u0424\u0430\u0434\u043b\u0435\u0441 :: \u041e \u041d\u0430\u0441", 
+    "object_id": "2", 
+    "change_message": "Changed content.", 
+    "user": 1, 
+    "content_type": 15
+  }
+},
+{
+  "pk": 36, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-15T07:59:03Z", 
+    "object_repr": "/about/ -- \u0424\u0430\u0434\u043b\u0435\u0441 :: \u041e \u041d\u0430\u0441", 
+    "object_id": "2", 
+    "change_message": "Changed content.", 
+    "user": 1, 
+    "content_type": 15
+  }
+},
+{
+  "pk": 37, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-15T08:00:06Z", 
+    "object_repr": "/about/ -- \u0424\u0430\u0434\u043b\u0435\u0441 :: \u041e \u041d\u0430\u0441", 
+    "object_id": "2", 
+    "change_message": "Changed content.", 
+    "user": 1, 
+    "content_type": 15
+  }
+},
+{
+  "pk": 38, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-15T08:02:29Z", 
+    "object_repr": "/about/ -- \u0424\u0430\u0434\u043b\u0435\u0441 :: \u041e \u041d\u0430\u0441", 
+    "object_id": "2", 
+    "change_message": "Changed content.", 
+    "user": 1, 
+    "content_type": 15
+  }
+},
+{
+  "pk": 39, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-15T08:02:54Z", 
+    "object_repr": "/about/ -- \u0424\u0430\u0434\u043b\u0435\u0441 :: \u041e \u041d\u0430\u0441", 
+    "object_id": "2", 
+    "change_message": "Changed content.", 
+    "user": 1, 
+    "content_type": 15
+  }
+},
+{
+  "pk": 40, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-15T08:03:14Z", 
+    "object_repr": "/about/ -- \u0424\u0430\u0434\u043b\u0435\u0441 :: \u041e \u041d\u0430\u0441", 
+    "object_id": "2", 
+    "change_message": "Changed content.", 
+    "user": 1, 
+    "content_type": 15
+  }
+},
+{
+  "pk": 41, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-16T05:15:30Z", 
+    "object_repr": "\u041f\u0438\u043b\u043e\u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b", 
+    "object_id": "3", 
+    "change_message": "Added product table \"\u041b\u0438\u0441\u0442\u0432\u0435\u043d\u043d\u0438\u0446\u0430\".", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 42, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-16T05:15:49Z", 
+    "object_repr": "\u041f\u0438\u043b\u043e\u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b", 
+    "object_id": "3", 
+    "change_message": "Added product table \"\u0414\u0443\u0431\".", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 43, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-16T05:17:39Z", 
+    "object_repr": "\u041f\u0438\u043b\u043e\u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b", 
+    "object_id": "3", 
+    "change_message": "Changed table_json and table for product table \"\u0414\u0443\u0431\".", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 44, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-16T05:18:00Z", 
+    "object_repr": "\u041f\u0438\u043b\u043e\u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b", 
+    "object_id": "3", 
+    "change_message": "Changed start_price.", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 45, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-16T05:18:46Z", 
+    "object_repr": "\u041f\u0438\u043b\u043e\u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b", 
+    "object_id": "3", 
+    "change_message": "Changed table for product table \"\u0414\u0443\u0431\".", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 46, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-16T05:19:29Z", 
+    "object_repr": "\u0414\u0421\u041f", 
+    "object_id": "4", 
+    "change_message": "Added product table \"\u042f\u0441\u0435\u043d\u044c\". Added product table \"\u041f\u0438\u0445\u0442\u0430\".", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 47, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-16T07:31:56Z", 
+    "object_repr": "\u0414\u0421\u041f", 
+    "object_id": "4", 
+    "change_message": "Added product table \"\u041b\u0438\u0441\u0442\u0432\u0435\u043d\u043d\u0438\u0446\u0430\". Added product table \"\u0414\u0443\u0431\".", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 48, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-16T07:33:19Z", 
+    "object_repr": "\u041f\u0438\u043b\u043e\u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b", 
+    "object_id": "3", 
+    "change_message": "Added product table \"\u041f\u0438\u0445\u0442\u0430\". Added product table \"\u041e\u043b\u044c\u0445\u0430\".", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 49, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-16T07:35:32Z", 
+    "object_repr": "\u0414\u0421\u041f", 
+    "object_id": "4", 
+    "change_message": "Added product table \"\u041f\u0438\u0445\u0442\u0430\". Added product table \"\u041e\u043b\u044c\u0445\u0430\".", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 50, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-16T07:35:59Z", 
+    "object_repr": "\u041f\u0438\u043b\u043e\u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b", 
+    "object_id": "3", 
+    "change_message": "Added product table \"\u041b\u0438\u0441\u0442\u0432\u0435\u043d\u043d\u0438\u0446\u0430\". Added product table \"\u0415\u043b\u044c\".", 
+    "user": 1, 
+    "content_type": 10
+  }
+},
+{
+  "pk": 51, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2014-07-16T08:11:37Z", 
+    "object_repr": "\u0414\u0421\u041f", 
+    "object_id": "4", 
+    "change_message": "Added product table \"\u0412\u0430\u0433\u043e\u043d\u043a\u0430\".", 
+    "user": 1, 
+    "content_type": 10
+  }
+}
+]
