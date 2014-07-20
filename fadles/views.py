@@ -1,6 +1,10 @@
+# coding=utf-8
 import json
+from django.http import HttpResponseRedirect
 from django.shortcuts import render
-from fadles.models import Product, House, PopularProduct, ProductTable
+from fadles.models import Product, House, PopularProduct, ProductTable, ContactUs
+from forms import ContactUsForm
+from django.contrib import messages
 
 
 def home_view(request):
@@ -33,3 +37,15 @@ def house_view(request, house_id):
 
 def review_view(request):
     return  render(request, "main/review.html")
+
+def contactus_view(request):
+    if request.method == 'POST':
+        form = ContactUsForm(request.POST)
+        if form.is_valid():
+            ContactUs(**form.cleaned_data).save()
+            messages.add_message(request,messages.SUCCESS,'Ваше сообщение успешно отправлено')
+            return HttpResponseRedirect('/contacts/')
+        messages.add_message(request,messages.ERROR,'Пожалуйста проверьте правильность ввода информации')
+    else:
+        form = ContactUsForm()
+    return  render(request, "main/contact_us.html", locals())
