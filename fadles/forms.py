@@ -4,7 +4,7 @@ from django.forms import ModelForm
 from fadles.models import ContactUs
 
 class ContactUsForm(ModelForm):
-
+    # TODO: Redeclare lables
     name = forms.CharField(error_messages={'required': 'Пожалуйста введите свое имя'})
     email = forms.EmailField(error_messages={'required': 'Пожалуйста введите свой email',
                                              'invalid': 'Пожалуйста введите правильный email адрес'})

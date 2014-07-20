@@ -2,7 +2,7 @@
 import json
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
-from fadles.models import Product, House, PopularProduct, ProductTable, ContactUs
+from fadles.models import Product, House, PopularProduct, ProductTable, ContactUs, Sale
 from forms import ContactUsForm
 from django.contrib import messages
 
@@ -10,6 +10,7 @@ from django.contrib import messages
 def home_view(request):
     products_list = Product.objects.all()
     popular_products_list = PopularProduct.objects.filter(is_active=True)
+    sales = Sale.objects.filter(is_active=True)
     return render(request, "main/main.html", locals())
 
 def catalog_view(request):

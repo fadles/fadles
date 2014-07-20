@@ -104,9 +104,16 @@ class ProductTable(models.Model):
         super(ProductTable, self).save(*args, **kwargs)
 
 class ContactUs(models.Model):
-    name =  models.CharField(max_length=256)
-    email =  models.EmailField(max_length=256)
+    name = models.CharField(max_length=256)
+    email = models.EmailField(max_length=256)
     phone = models.CharField(max_length=256)
     message = models.TextField()
     datetime_created = models.DateTimeField(auto_now_add=True)
 
+# class Review(models.Model):
+#     name = models.CharField(max_length=256)
+#     email = models.EmailField(max_length=256)
+#     phone = models.CharField(max_length=256, default='')
+#     review = models.TextField()
+#     datetime_created = models.DateTimeField(auto_now_add=True)
+#     moderated = models.BooleanField(default=False)
