@@ -105,8 +105,7 @@ class ProductTable(models.Model):
 
 class ContactUs(models.Model):
     name = models.CharField(max_length=256)
-    email = models.EmailField(max_length=256)
-    phone = models.CharField(max_length=256)
+    email_or_phone = models.CharField(max_length=256)
     message = models.TextField()
     datetime_created = models.DateTimeField(auto_now_add=True)
 

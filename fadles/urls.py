@@ -15,6 +15,7 @@ urlpatterns = patterns('',
     url(r'^houses/$', 'fadles.views.catalog_houses_view', name='houses'),
     url(r'^house/(?P<house_id>\d+)/$', 'fadles.views.house_view', name='house'),
     url(r'^reviews/$', 'fadles.views.review_view', name='review'),
+    url(r'^send_request/$', 'fadles.views.send_request_view', name='send_request'),
 
 )
 

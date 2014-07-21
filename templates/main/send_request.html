@@ -1,0 +1,29 @@
+{% extends 'main/incl/layout.html' %}
+
+{% block title %}Фадлес :: Контакты{% endblock %}
+
+{% block content %}
+<div class="b-wrapper">
+    {% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+            {% if message.level == 25 %}
+                <li{% if message.tags %} style="color:green" class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+            {% else %}
+                <li{% if message.tags %} style="color:red" class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+    {% endif %}
+    <form action="/send_request/" method="post">
+        {% csrf_token %}
+        {% for field in form %}
+            <div class="fieldWrapper">
+                {{ field.errors }}
+                {{ field.label_tag }} {{ field }}
+            </div>
+        {% endfor %}
+        <input type="submit" value="Отправить">
+    </form>
+</div>
+{% endblock %}

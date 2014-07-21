@@ -3,7 +3,16 @@
 
 {% block content %}
 <div class="b-wrapper">
-
+{% for review in reviews %}
+    <div>
+        {% thumbnail review.preview "100x100" crop="center" as im %}
+                <img src='{{ im.url }}' />
+        {% endthumbnail %}
+        {{ review.name }}<br>
+        {{ review.email }}<br>
+        {{ review.review }}<br>
+    </div>
+{% endfor %}
 </div>
 
 {% endblock %}
