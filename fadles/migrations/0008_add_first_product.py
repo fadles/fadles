@@ -1,27 +1,22 @@
 # -*- coding: utf-8 -*-
 from south.utils import datetime_utils as datetime
 from south.db import db
-from south.v2 import SchemaMigration
+from south.v2 import DataMigration
 from django.db import models
 
-
-class Migration(SchemaMigration):
+class Migration(DataMigration):
 
     def forwards(self, orm):
-        # Adding model 'ProductTable'
-        db.create_table(u'fadles_producttable', (
-            (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
-            ('product', self.gf('django.db.models.fields.related.ForeignKey')(related_name='tables', to=orm['fadles.Product'])),
-            ('name', self.gf('django.db.models.fields.CharField')(max_length=256)),
-            ('table_json', self.gf('django.db.models.fields.TextField')()),
-            ('table', self.gf('django.db.models.fields.files.FileField')(max_length=100)),
-        ))
-        db.send_create_signal(u'fadles', ['ProductTable'])
-
+        orm.Product.objects.create(name=u'Very misterious player', pk=1)
+        "Write your forwards methods here."
+        # Note: Don't use "from appname.models import ModelName". 
+        # Use orm.ModelName to refer to models in this application,
+        # and orm['appname.ModelName'] for models in other applications.
 
     def backwards(self, orm):
-        # Deleting model 'ProductTable'
-        db.delete_table(u'fadles_producttable')
+        print 'here'
+        orm.Product.objects.get(pk=1).delete()
+        "Write your backwards methods here."
 
 
     models = {
@@ -92,3 +87,4 @@ class Migration(SchemaMigration):
     }
 
     complete_apps = ['fadles']
+    symmetrical = True

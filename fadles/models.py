@@ -28,12 +28,12 @@ class Product(models.Model):
         return self.name.encode('utf-8')
 
 class ProductImage(models.Model):
-    property = models.ForeignKey(Product, related_name='images')
+    product = models.ForeignKey(Product, related_name='images')
     image = ImageField(upload_to=content_file_name)
 
 
 class ProductCertificate(models.Model):
-    property = models.ForeignKey(Product, related_name='certificates')
+    product = models.ForeignKey(Product, related_name='certificates')
     name = name = models.CharField(max_length=256)
     image = ImageField(upload_to=content_file_name)
 
@@ -46,7 +46,7 @@ class House(models.Model):
         return self.name.encode('utf-8')
 
 class HouseImage(models.Model):
-    property = models.ForeignKey(House, related_name='images')
+    product = models.ForeignKey(House, related_name='images')
     image = ImageField(upload_to=content_file_name)
 
 class PopularProduct(models.Model):
@@ -103,5 +103,17 @@ class ProductTable(models.Model):
 
         super(ProductTable, self).save(*args, **kwargs)
 
+class ContactUs(models.Model):
+    name = models.CharField(max_length=256)
+    email = models.EmailField(max_length=256)
+    phone = models.CharField(max_length=256)
+    message = models.TextField()
+    datetime_created = models.DateTimeField(auto_now_add=True)
 
-
+# class Review(models.Model):
+#     name = models.CharField(max_length=256)
+#     email = models.EmailField(max_length=256)
+#     phone = models.CharField(max_length=256, default='')
+#     review = models.TextField()
+#     datetime_created = models.DateTimeField(auto_now_add=True)
+#     moderated = models.BooleanField(default=False)

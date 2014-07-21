@@ -22,6 +22,7 @@ class FlatPageAdmin(FlatPageAdminOld):
     form = FlatpageForm
 
 class ProductTableInline(admin.TabularInline):
+    exclude = ['table_json']
     model = ProductTable
 
 class ProductImageInline(AdminImageMixin, admin.TabularInline):
