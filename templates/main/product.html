@@ -13,27 +13,29 @@
                     {% endthumbnail %}
                 </a>
             </div>
-            <ul class="b-product-gallery__others">
-                {% for image_object in product.images.all %}
-                    {% if not forloop.first and forloop.counter0 <= 4 %}
-                        <li>
-                            <a href="{{ image_object.image.url }}" data-lightbox="products" data-title="{{ forloop.counter }}">
-                                {% thumbnail image_object.image "58x58" crop="center" as im %}
-                                    <img src='{{ im.url }}' />
-                                {% endthumbnail %}   
-                            </a>
+            {% if product.images.all|length > 1 %}
+                <ul class="b-product-gallery__others">
+                    {% for image_object in product.images.all %}
+                        {% if not forloop.first and forloop.counter0 <= 4 %}
+                            <li>
+                                <a href="{{ image_object.image.url }}" data-lightbox="products" data-title="{{ forloop.counter }}">
+                                    {% thumbnail image_object.image "58x58" crop="center" as im %}
+                                        <img src='{{ im.url }}' />
+                                    {% endthumbnail %}   
+                                </a>
+                            </li>
+                        {% elif not forloop.first %}
+                            <a style="display:none;" href="{{ image_object.image.url }}" data-lightbox="products" data-title="{{ forloop.counter }}"></a>
+                        {% endif %}
+                    {% endfor %}
+                    {% if product.images.all|length > 5 %}
+                        <li class="b-product-gallery__more">
+                            <span>{{product.images.all|length}}<br/>ФОТО</span>
                         </li>
-                    {% elif not forloop.first %}
-                        <a style="display:none;" href="{{ image_object.image.url }}" data-lightbox="products" data-title="{{ forloop.counter }}"></a>
                     {% endif %}
-                {% endfor %}
-                {% if product.images.all|length > 5 %}
-                    <li class="b-product-gallery__more">
-                        <span>{{product.images.all|length}}<br/>ФОТО</span>
-                    </li>
-                {% endif %}
-                <div class="clear"></div>
-            </ul>
+                    <div class="clear"></div>
+                </ul>
+            {% endif %}
         </div>
         <div class="b-product__description">
             <p>{{ product.description }}</p>
@@ -76,150 +78,6 @@
                 </li>
             {% endfor %}
             </ul>
-        {%  comment %}
-            <ul class="b-product-tables__content">
-                <li data-tab="tab1">
-                    <table>
-                        <tr>
-                            <th>Название</th>
-                            <th>Пачек в м3</th>
-                            <th>“Э” розн</th>
-                            <th>“А” розн</th>
-                            <th>“Э” опт</th>
-                            <th>“А” опт</th>
-                        </tr>
-                        <tr>
-                            <td>Вагонка хвоя 1,8м</td>
-                            <td>6</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>Вагонка хвоя 2,8м</td>
-                            <td>23</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>Сосна</td>
-                            <td>21</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>Вагонка хвоя 3м</td>
-                            <td>12</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                    </table>
-                </li>
-                <li data-tab="tab2">
-                    <table>
-                        <tr>
-                            <th>Название</th>
-                            <th>2м</th>
-                            <th>2м</th>
-                            <th>2м</th>
-                            <th>2м</th>
-                            <th>2м</th>
-                        </tr>
-                        <tr>
-                            <td>корова</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>корова</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>лось</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>молоко</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>Сосна</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                    </table>
-                </li>
-                <li data-tab="tab3">
-                    <table>
-                        <tr>
-                            <th>Название</th>
-                            <th>2м</th>
-                            <th>2м</th>
-                            <th>2м</th>
-                            <th>2м</th>
-                            <th>2м</th>
-                        </tr>
-                        <tr>
-                            <td>пес</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>собака</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>Сосна</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>Сосна</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                    </table>
-                </li>
-            </ul>
-        {% endcomment %}
         </div>
         <div class="b-product__additional">
             {{ product.additional_info|safe }}
@@ -228,12 +86,17 @@
             <div class="b-product__certificates">
                 <h3>Сертификаты</h3>
                 {% for certificate in product.certificates.all %}
-                    
-                    {% thumbnail certificate.image "100" padding=True as im %}
-                        <img src="{{ im.url }}">
-                    {% endthumbnail %}
-                    {{ certificate.name }}
-
+                    <div class="b-product__certificate">
+                        <a href="{{certificate.image.url}}" target="blank">
+                            {% thumbnail certificate.image "100" padding=True as im %}
+                                <img src="{{ im.url }}">
+                            {% endthumbnail %}
+                        </a>
+                        
+                        <span>
+                            {{ certificate.name }}
+                        </span>
+                    </div>
                 {% endfor %}
             </div>
         {% endif %}

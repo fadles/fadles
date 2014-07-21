@@ -4,16 +4,22 @@
 
 {% block content %}
 <div class="b-best-offers">
-    {% for sale in sales_list %}
-        <a href="{% url 'product' sale.product.id %}">
-            ого
-        </a>
-    {% endfor %}
+    {% with sales_list.first as sale %}
+        <div class="b-best-offer" >
+            {% thumbnail sale.preview "940x260" crop="center" as im %}
+                    <img src='{{ im.url }}' />
+            {% endthumbnail %}
+            <h3>{{sale.name}}</h3>
+            <span>{{sale.description}}</span>
+            <a href="{% url 'product' sale.product.id %}"></a>
+        </div>
+    {% endwith %}
     
 </div>
 <div class="b-main">
     <div class="b-wrapper">
 
+        {% if popular_products_list %}
         <div class="b-popular">
             <h2>Популярные товары</h2>
             <ul>
@@ -33,6 +39,7 @@
                 <div class="clear"></div>
             </ul>
         </div>
+        {% endif %}
         <div class="b-catalog">
             <h2>Каталог</h2>
             <ul>

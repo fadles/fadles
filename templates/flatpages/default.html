@@ -3,9 +3,9 @@
 {% block title %}{{ flatpage.title }}{% endblock %}
 
 {% block content %}
-<div class="b-flat">
-    <div class="b-wrapper">
-        {{ flatpage.content }}
+    <div class="b-wrapper b-flat">
+    	<div class="b-flat__content">
+	        {{ flatpage.content }}
+	    </div>
     </div>
-</div>
 {% endblock %}

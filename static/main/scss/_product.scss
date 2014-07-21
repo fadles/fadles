@@ -132,8 +132,37 @@
 .b-product__additional{
 	width: 720px;
 	float: left;
+	p{
+		color: #696969;
+		margin-bottom: 20px;
+	}
+	h1,h2,h3{
+		margin: 0 0 10px;
+	}
 }
 .b-product__certificates{
 	float: right;
 	width: 140px;
+	text-align: center;
+	h3{
+		margin: 0 0 15px 0;
+		font-size: 23px;
+	}
+	a{
+		display: block;
+		width: 80%;
+		margin: 0 auto 7px;
+	}
+	img{
+		display: block;
+		width: 100%;
+	}
+	span{	
+		@include inline-block;
+		width: 80%;
+		font-size: 14px;
+	}
+}
+.b-product__certificate{
+	margin-bottom: 15px;
 }
