@@ -110,10 +110,10 @@ class ContactUs(models.Model):
     message = models.TextField()
     datetime_created = models.DateTimeField(auto_now_add=True)
 
-# class Review(models.Model):
-#     name = models.CharField(max_length=256)
-#     email = models.EmailField(max_length=256)
-#     phone = models.CharField(max_length=256, default='')
-#     review = models.TextField()
-#     datetime_created = models.DateTimeField(auto_now_add=True)
-#     moderated = models.BooleanField(default=False)
+class Review(models.Model):
+    name = models.CharField(max_length=256)
+    email = models.EmailField(max_length=256)
+    preview = ImageField(upload_to=content_file_name)
+    review = models.TextField()
+    datetime_created = models.DateTimeField(auto_now_add=True)
+    moderated = models.BooleanField(default=False)

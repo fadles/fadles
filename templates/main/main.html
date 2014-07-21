@@ -4,17 +4,18 @@
 
 {% block content %}
 <div class="b-best-offers">
-    {% with sales_list.first as sale %}
-        <div class="b-best-offer" >
-            {% thumbnail sale.preview "940x260" crop="center" as im %}
-                    <img src='{{ im.url }}' />
-            {% endthumbnail %}
-            <h3>{{sale.name}}</h3>
-            <span>{{sale.description}}</span>
-            <a href="{% url 'product' sale.product.id %}"></a>
-        </div>
-    {% endwith %}
-    
+    {% if sales_list %}
+        {% with sales_list.0 as sale %}
+            <div class="b-best-offer" >
+                {% thumbnail sale.preview "940x260" crop="center" as im %}
+                        <img src='{{ im.url }}' />
+                {% endthumbnail %}
+                <h3>{{sale.name}}</h3>
+                <span>{{sale.description}}</span>
+                <a href="{% url 'product' sale.product.id %}"></a>
+            </div>
+        {% endwith %}
+    {% endif %}
 </div>
 <div class="b-main">
     <div class="b-wrapper">

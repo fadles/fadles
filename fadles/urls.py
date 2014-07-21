@@ -15,7 +15,7 @@ urlpatterns = patterns('',
     url(r'^houses/$', 'fadles.views.catalog_houses_view', name='houses'),
     url(r'^house/(?P<house_id>\d+)/$', 'fadles.views.house_view', name='house'),
     url(r'^reviews/$', 'fadles.views.review_view', name='review'),
-    url(r'^contacts/', 'fadles.views.contactus_view', name='contact_us'),
+
 )
 
 urlpatterns += patterns('',
@@ -26,7 +26,7 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 # Flatpages
 urlpatterns += patterns('',
-
+    url(r'^contacts/', include('django.contrib.flatpages.urls'), name='contact_us'),
     url(r'^partners/', include('django.contrib.flatpages.urls'), name='partners'),
     url(r'^about/', include('django.contrib.flatpages.urls'), name='about'),
 )
