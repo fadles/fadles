@@ -1,11 +1,12 @@
 import json
 from django.shortcuts import render
-from fadles.models import Product, House, PopularProduct, ProductTable
+from fadles.models import Product, House, PopularProduct, ProductTable, Sale
 
 
 def home_view(request):
     products_list = Product.objects.all()
     popular_products_list = PopularProduct.objects.filter(is_active=True)
+    sales_list = Sale.objects.filter(is_active=True)
     return render(request, "main/main.html", locals())
 
 def catalog_view(request):
