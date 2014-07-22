@@ -1,14 +1,9 @@
 # -*- coding: utf-8 -*-
-import codecs
 import csv
 import json
-import os
-from uuid import uuid4
 from django.db import models
 from sorl.thumbnail import ImageField
-import sys
 import time
-from tinymce.models import HTMLField
 from ckeditor.fields import RichTextField
 
 def content_file_name(instance, filename):
