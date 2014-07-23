@@ -2,17 +2,24 @@
 {% load thumbnail %}
 
 {% block content %}
-<div class="b-wrapper">
-{% for review in reviews %}
-    <div>
-        {% thumbnail review.preview "100x100" crop="center" as im %}
-                <img src='{{ im.url }}' />
-        {% endthumbnail %}
-        {{ review.name }}<br>
-        {{ review.email }}<br>
-        {{ review.review }}<br>
-    </div>
-{% endfor %}
+<div class="b-wrapper b-review">
+	<h2>Отзывы</h2>
+	<ul class="b-review__list">
+		{% for review in reviews %}
+		    <li class="b-review__item">
+		    	<div class="b-review__pic">
+		        	{% thumbnail review.preview "100x100" crop="center" as im %}
+		                <img src='{{ im.url }}' />
+		        	{% endthumbnail %}
+		        </div>
+		        <div class="b-review__info">
+		        	<h4>{{ review.name }}</h4>
+					<p>{{ review.review }}</p>
+				</div>
+				<div class="clear"></div>
+		    </li>
+		{% endfor %}
+	</ul>
 </div>
 
 {% endblock %}

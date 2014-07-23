@@ -1,0 +1,35 @@
+.b-review{
+	padding: 30px 0 40px;
+	min-height: 450px;
+	h2 {
+		font-size: 34px;
+		margin: 0 0 30px;
+	}
+}
+
+.b-review__pic{
+	float:left;
+	width: 100px;
+	height:100px;
+	overflow: hidden;
+	@include border-radius(50px);
+	img{
+		display: block;
+		width: 100px;
+	}
+}
+.b-review__item{
+	margin-bottom: 40px;
+	width: 720px;
+}
+.b-review__info{
+	margin-left: 120px;
+	h4{
+		padding-top: 5px;
+		margin: 0 0 5px;
+	}
+	p{
+		margin: 0;
+		color: #696969;
+	}
+}
