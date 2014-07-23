@@ -1,9 +1,11 @@
 {% extends 'main/incl/layout.html' %}
 
-{% block title %}Фадлес :: Контакты{% endblock %}
+{% block title %}Фадлес :: Оставить заявку{% endblock %}
 
 {% block content %}
-<div class="b-wrapper">
+<div class="b-wrapper b-send">
+    <h2>Ваша заявка</h2>
+    <p>Оставьте ваши данные и мы свяжемся с вами в течение рабочего дня</p>
     {% if messages %}
     <ul class="messages">
         {% for message in messages %}
@@ -17,13 +19,28 @@
     {% endif %}
     <form action="/send_request/" method="post">
         {% csrf_token %}
-        {% for field in form %}
-            <div class="fieldWrapper">
-                {{ field.errors }}
-                {{ field.label_tag }} {{ field }}
-            </div>
-        {% endfor %}
-        <input type="submit" value="Отправить">
+        <div class="b-form__name">
+            {% if form.name.errors %}
+                <span class="b-form__error">{{ form.name.errors }}</span>
+            {% endif %}
+            <span class="title">Ваше имя</span>
+            {{ form.name }}
+        </div>
+        <div class="b-form__email_or_phone">
+            {% if form.email_or_phone.errors %}
+                <span class="b-form__error">{{ form.email_or_phone.errors }}</span>
+            {% endif %}
+            <span class="title">Телефон или электронная почта</span>
+            {{ form.email_or_phone }}
+        </div>
+        <div class="b-form__message">
+            {% if form.message.errors %}
+                <span class="b-form__error">{{ form.message.errors }}</span>
+            {% endif %}
+            <span class="title">Сообщение</span>
+            {{ form.message }}
+        </div>
+        <input type="submit" value="ОТПРАВИТЬ ЗАЯВКУ">
     </form>
 </div>
 {% endblock %}

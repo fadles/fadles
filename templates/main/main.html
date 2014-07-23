@@ -26,16 +26,18 @@
             <h2>Популярные товары</h2>
             <ul>
                 {% for p_product in popular_products_list %}
-                    <li class="b-popular-item">
-                        <a href="{% url 'product' p_product.product.id %}" class="b-popular-item__img">
-                            {% thumbnail p_product.preview "140x95" crop="center" as im %}
-                                    <img src='{{ im.url }}' />
-                            {% endthumbnail %}
-                        </a>
-                        <a href="{% url 'product' p_product.product.id %}" class="b-popular-item__name">{{ p_product.name }}</a>
-                        <span class="b-popular-item__size">{{ p_product.size }}</span>
-                        <span class="b-popular-item__price">{{ p_product.start_price }} руб {{ p_product.unit }}</span>
-                    </li>
+                    {% if forloop.counter0 <= 5 %}
+                        <li class="b-popular-item">
+                            <a href="{% url 'product' p_product.product.id %}" class="b-popular-item__img">
+                                {% thumbnail p_product.preview "140x95" crop="center" as im %}
+                                        <img src='{{ im.url }}' />
+                                {% endthumbnail %}
+                            </a>
+                            <a href="{% url 'product' p_product.product.id %}" class="b-popular-item__name">{{ p_product.name }}</a>
+                            <span class="b-popular-item__size">{{ p_product.size }}</span>
+                            <span class="b-popular-item__price">{{ p_product.start_price }} руб {{ p_product.unit }}</span>
+                        </li>
+                    {% endif %}
                 {% endfor %}
 
                 <div class="clear"></div>

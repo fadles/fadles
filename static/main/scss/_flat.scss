@@ -1,6 +1,6 @@
 .b-flat{
 	min-height: 400px;
-	padding-bottom: 70px;
+	padding: 30px 0 70px;
 	h2{
 		font-size: 34px;
 		margin: 0 0 30px;
@@ -24,4 +24,59 @@
 }
 .b-flat__content{
 	width: 720px;
+}
+
+.b-send{
+	min-height: 400px;
+	padding: 30px 0 70px;
+	&>p{
+		font-size: 13px;
+		color:#696969;
+		margin: 5px 0;
+		font-style: italic;
+		width: 300px;
+
+	}
+	h2{
+		font-size: 34px;
+		margin: 0 0 5px;
+	}
+	form{
+		padding: 20px 0;
+		&>div{
+			position: relative;
+			padding: 13px 0;
+		}
+		.title{
+			display: block;
+			color:#696969;
+			font-weight: 600;
+			font-size: 14px;
+			padding-bottom: 3px;
+		}
+		input[type="text"],textarea{
+			border:1px solid #aaa;
+			padding: 5px 7px;
+			width:350px;
+			@include border-radius(5px);
+			resize:none;
+		}
+		input[type="submit"]{
+			background: #fa4628;
+			padding: 10px 20px;
+			color:#fff;
+			font-size: 18px;
+			font-weight: 700;
+			border:none;
+			@include border-radius(5px);
+			margin-top: 15px;
+		}
+		.b-form__error{
+			position: absolute;
+			top:0;
+			left: 0;
+			font-size: 11px;
+			color:red;
+		}
+	}
 }
