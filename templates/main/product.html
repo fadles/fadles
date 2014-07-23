@@ -7,8 +7,8 @@
 
         <div class="b-product__gallery">
             <div class="b-product-gallery__main">
-                <a href="{{ product.images.first.image.url }}" data-lightbox="products" data-title="{{ 1 }}">
-                    {% thumbnail product.images.first.image "298x200" crop="center" as im %}
+                <a href="{{ product.images.0.image.url }}" data-lightbox="products" data-title="{{ 1 }}">
+                    {% thumbnail product.images.0.image "298x200" crop="center" as im %}
                         <img src='{{ im.url }}' />
                     {% endthumbnail %}
                 </a>
