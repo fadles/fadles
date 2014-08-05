@@ -1,4 +1,4 @@
-from fadles.models import Product, ProductImage, ProductCertificate, HouseImage, House, Sale, PopularProduct, ProductTable, Review
+from fadles.models import Product, ProductImage, ProductCertificate, HouseImage, House, Sale, PopularProduct, ProductTable, Review, ContactUs
 from django.contrib import admin
 from sorl.thumbnail.admin import AdminImageMixin
 from django.contrib.sites.models import Site
@@ -41,6 +41,15 @@ class HouseImageInline(AdminImageMixin, admin.TabularInline):
 class HouseAdmin(admin.ModelAdmin):
     inlines = [HouseImageInline, ]
 
+class ReviewAdmin(admin.ModelAdmin):
+    date_hierarchy = 'datetime_created'
+    list_display = ('name', 'email', 'datetime_created')
+
+class ContactsAdmin(admin.ModelAdmin):
+    date_hierarchy = 'datetime_created'
+    list_display = ('name', 'email_or_phone', 'message', 'datetime_created')
+    search_fields = ['name', 'email_or_phone', 'message', ]
+
 admin.site.register(Product, ProductAdmin)
 admin.site.register(House, HouseAdmin)
 admin.site.unregister(Group)
@@ -50,4 +59,5 @@ admin.site.unregister(FlatPage)
 admin.site.register(FlatPage, FlatPageAdmin)
 admin.site.register(PopularProduct)
 admin.site.register(Sale)
-admin.site.register(Review)
+admin.site.register(Review, ReviewAdmin)
+admin.site.register(ContactUs, ContactsAdmin)

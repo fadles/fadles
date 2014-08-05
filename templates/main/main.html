@@ -4,8 +4,8 @@
 
 {% block content %}
 <div class="b-best-offers">
-    {% if sales_list %}
-        {% with sales_list.0 as sale %}
+    {% if sale_obj %}
+        {% with sale_obj as sale %}
             <div class="b-best-offer" >
                 <i></i>
                 {% thumbnail sale.preview "940x260" crop="center" as im %}

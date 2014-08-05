@@ -2,9 +2,8 @@
 import json
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
-from django.shortcuts import render_to_response
 from django.views.decorators.csrf import csrf_exempt
-from fadles.models import Product, House, PopularProduct, ProductTable, ContactUs, Sale, Review
+from fadles.models import Product, House, PopularProduct, ContactUs, Sale, Review
 from forms import ContactUsForm
 from django.contrib import messages
 
@@ -12,7 +11,7 @@ from django.contrib import messages
 def home_view(request):
     products_list = Product.objects.all()
     popular_products_list = PopularProduct.objects.filter(is_active=True)
-    sales_list = Sale.objects.filter(is_active=True)
+    sale_obj = Sale.objects.filter(is_active=True).order_by('?')[0]
     return render(request, "main/main.html", locals())
 
 def catalog_view(request):
@@ -53,4 +52,4 @@ def send_request_view(request):
         messages.add_message(request,messages.ERROR,'Заполните все выделенные поля')
     else:
         form = ContactUsForm()
-    return render_to_response('main/send_request.html', locals())
+    return render(request,'main/send_request.html', locals())
